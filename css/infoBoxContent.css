@@ -1,0 +1,159 @@
+body {
+	margin:0;
+	padding:0;
+	background-color: transparent;
+	font-family: "ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+}
+
+table {
+	margin:3px 0px 0px 0px;
+}
+
+div.balloon {
+	margin:0;
+	padding:0;
+	width:100%;
+	background-color: transparent;
+}
+
+div.testimony {
+	margin:0;
+	padding:0;
+	z-index:10000;
+}
+
+div.portrait {
+	width:100%;
+	text-align:center;
+	padding:0px;
+	border:0px;
+	background-color: transparent;
+	overflow:hidden;
+}
+
+img.photo{
+	height:200px;
+}
+
+div.comment_en {
+	width:100%;
+	text-align:left;
+	background-color: transparent;
+	padding:0px;
+	border:0px;
+}
+
+div.message {
+	position:absolute;
+	text-align:center;
+	font-size:8px;
+	bottom:2px;
+	right:2px;
+}
+
+div.submission {
+	width:100%;
+	position:absolute;
+	bottom:-1000;
+	z-index:10001;
+	background-color:black;
+	border-radius:5px;
+	padding:5px 0px 0px 0px;
+	opacity:0.9;
+}
+
+div.submit {
+	text-align:right;
+	font-size:9px;
+	width:100%;
+}
+
+div.pastmessages {
+	overflow:auto;
+	font-size:9px;
+	height:120px;
+	border:0px;
+	padding:2px;
+	background-color: transparent;
+	scrollbar-face-color:#000000;
+	scrollbar-3dlight-color: #000000;
+	scrollbar-highlight-color:#666666;
+	scrollbar-shadow-color: #666666;
+	scrollbar-darkshadow-color: #000000;
+	scrollbar-arrow-color: #ffffff;
+	scrollbar-track-color: #666666;
+}
+
+p.portrait {
+	width:100%;
+	text-align:center;
+	background-color: transparent;
+}
+
+p.comment_en {
+	font-size:9pt;
+	background-color: transparent;
+	color:#EEEEEE;
+	text-align:justify;
+	padding:5px;
+}
+
+p.sendamessage {
+	font-size:9pt;
+	background-color:transparent;
+	margin:0;
+	color:#BBBBBB;
+	font-weight:bold;
+	text-align:center;
+	font-family: "ＭＳ Ｐゴシック","ＭＳ ゴシック",sans-serif;
+}
+
+p.pastmessage {
+	font-size:10pt;
+	background-color: transparent;
+	margin:0px 0px 3px 0px;
+	color:#BBBBBB;
+	font-weight:bold;
+	text-align:center;
+	font-family: "ＭＳ Ｐゴシック","ＭＳ ゴシック",sans-serif;
+}
+
+p.pastmessages {
+	background-color: transparent;
+	margin:0;
+	color:#BBBBBB;
+	line-height:1.7em;
+}
+
+td.name {
+	color:#BBBBBB;
+	font-size:10px;
+}
+
+td.message {
+	color:#BBBBBB;
+	font-size:10px;
+}
+	
+input.menu {
+	vertical-align:-0.1em;
+}
+
+textarea.text {
+	color:#BBBBBB;
+	border:1px solid #333333;
+	padding:0px;
+	background-color: black;
+	font-size:12px;
+	resize: none;
+	width:240px;
+}
+
+input.submit {
+	padding: 2px 5px;
+	margin:1px 5px 5px 0px;
+	font-size: 12px;
+	background-color: transparent;
+    color: #fff;
+	border-style:solid;
+}

@@ -1,0 +1,452 @@
+html, body, #cesiumContainer {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position:relative;
+	font-family: "MS Pゴシック",sans-serif; 
+}
+
+h2 {
+    font-size:13px;
+    font-weight:bold;
+    text-align:center;
+}
+
+a {
+    color:black;
+	text-decoration:none;
+}
+
+a:active {
+	background-color:gray;
+}
+
+/*Cesium関連スタイル設定*/
+
+.cesium-home-button {
+	display:none;
+}
+
+.cesium-viewer-toolbar {
+	top:6px;
+	right:52px;
+}
+
+.cesium-toolbar-button {
+	width:36px;
+	height:36px;
+}
+
+.cesium-baseLayerPicker-dropDown {
+	right:-44px;
+}
+
+.cesium-baseLayerPicker-dropDown-visible {
+	right:-44px;
+}
+
+.cesium-infoBox-iframe {
+	width:320px;
+	overflow:hidden;
+	padding:0px;
+	margin:0px;
+	z-index:10001;
+}
+
+.cesium-infoBox {
+	width:320px;
+	overflow:hidden;
+	padding:0px;
+	margin:0px;
+	z-index:10001;
+	background-color:rgba(0,0,0,0.8);
+    overflow-y:hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.cesium-infoBox-visible {
+	width:320px;
+	overflow:hidden;
+	padding:0px;
+	margin:0px;
+	z-index:10001;
+    overflow-y:hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.cesium-infoBox-title {
+	padding:5px 24px;
+	overflow:hidden;
+	color:#BBBBBB;;
+	background-color:rgba(0,0,0,0.5);
+}
+
+.cesium-viewer .cesium-widget-credits {
+    display: inline;
+    position: absolute;
+    bottom: 0px;
+    left: 2px;
+    padding-right: 0px;
+    margin-right: 140px;
+    font-size: 9px;
+    text-shadow: 0px 0px 2px #FFF;
+    opacity: 0.8;
+}
+
+.cesium-credit-imageContainer {
+	display:none;
+}
+.cesium-credit-textContainer {
+	display:none;
+}
+
+.cesium-button {
+    color: rgb(180, 180, 180);
+    fill: rgb(180, 180, 180);
+    cursor: pointer;
+}
+
+button.cesium-infoBox-close {
+	color:#aaa;
+}
+
+.cesium-selection-wrapper{
+	margin-top:-18px;
+}
+
+.cesium-selection-wrapper-visible {
+	margin-top:-18px;
+}
+
+.cesium-selection-wrapper svg {
+    fill: #FFF;
+    stroke: #FFF;
+    stroke-width: 0px;
+    opacity:0.7;
+}
+
+.cesium-timeline-icon16 {
+	border: 1px solid rgba(0,0,0,0.5);
+    height:22px;
+	width:33px;
+	background: #f2f6f8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f2f6f8 0%, #d8e1e7 50%, #c0ccdb 51%, #e0eff9 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f6f8), color-stop(50%,#d8e1e7), color-stop(51%,#c0ccdb), color-stop(100%,#e0eff9)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#c0ccdb 51%,#e0eff9 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#c0ccdb 51%,#e0eff9 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 50%,#c0ccdb 51%,#e0eff9 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f2f6f8 0%,#d8e1e7 50%,#c0ccdb 51%,#e0eff9 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=0 ); /* IE6-9 */
+	margin-bottom:0px;
+	margin-left:-9px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.cesium-timeline-main {
+	border:none;
+}
+
+.cesium-timeline-bar{
+	background:rgba(0,0,0,0.4);
+}
+
+.cesium-viewer-timelineContainer {
+	position:absolute;
+	left:0px;
+}
+
+.cesium-timeline-ticLabel {
+    display:none;
+}
+
+.cesium-timeline-ticMain {
+	display:none;
+}
+
+.cesium-timeline-ticSub {
+	display:none;
+}
+
+.cesium-timeline-ticTiny {
+	display:none;
+}
+
+
+.cesium-viewer-animationContainer {
+	bottom: 20px;
+	left: -28px;
+	opacity: 0.8;
+	-webkit-filter:grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.cesium-animation-shuttleRingG {
+    display: none;
+}
+
+.cesium-animation-shuttleRingBack {
+    display: none;
+}
+
+.cesium-animation-shuttleRingG .cesium-animation-shuttleRingSwoosh {
+    display: none;
+}
+
+.cesium-animation-shuttleRingSwoosh line {
+    display: none;
+}
+
+.cesium-animation-shuttleRingPausePointer {
+    display: none;
+}
+
+.cesium-animation-knobOuter {
+    display: none;
+}
+
+.cesium-animation-knobInner {
+    display: none;
+}
+
+.cesium-animation-svgText {
+    display: none;
+}
+
+.cesium-animation-blank {
+    display: none;
+}
+
+.cesium-animation-buttonDisabled {
+    display: none;
+}
+
+.cesium-animation-buttonDisabled .cesium-animation-buttonGlow {
+    display: none;
+}
+
+.cesium-animation-buttonDisabled .cesium-animation-buttonMain {
+    display: none;
+}
+
+/*以降Cesium以外の要素*/
+
+/*ボタン*/
+
+#button {
+	position:absolute;
+	top:8px;
+	left:8px;
+	opacity:0.9;
+}
+#button2 {
+	position:absolute;
+	top:8px;
+	right:56px;
+	opacity:0.9;
+	z-index: 10004;
+}
+#button3 {
+	position:absolute;
+	top:8px;
+	right:8px;
+	opacity:0.9;
+	z-index: 10004;
+}
+#buttonGeo {
+	position:absolute;
+	bottom:30px;
+	left:50%;
+	margin-left:-20px;
+	opacity:0.9;
+}
+.sharebutton {
+	position: absolute;
+	text-align: left;
+	top: -4px;
+	right: 100px;
+	width: 130px;
+	z-index: 2;
+	opacity:0.9;
+}
+.share
+{
+	width:28px;
+	height:28px;
+	margin:-2px;
+}
+.share-buttons{
+	list-style: none;
+}
+.share-buttons li{
+	display: inline;
+}
+
+/*タイムカウンター*/
+
+#timeCounter {
+    width:60px;
+	text-align:right;
+    position:absolute;
+    bottom:26px;
+    right:6px;
+    margin:0px;
+    z-index:10000;
+    font-size:16px;
+    line-height:16px;
+    text-align:right;
+    font-family:sans-serif;
+    color:white;
+}
+
+/*スライドインメニューー*/
+
+#slide_menu{
+    position: fixed;
+    top: 48px;
+    left: -200px;
+    width: 80px;
+    opacity:0.8;
+    padding:0px 0px 20px 0px;
+    margin:0px;
+    margin-bottom:0px;
+    background:white;
+    text-align:center;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#slide_menu2{
+    position: fixed;
+    top: 48px;
+    right: -200px;
+    width: 100px;
+    opacity:0.8;
+    padding:10px 10px 0px 10px;
+    margin:0px;
+    margin-bottom:0px;
+    background:white;
+    text-align:left;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	z-index: 10004;
+}
+
+.viewpoint {
+    padding: 0;
+    margin: 20px 0px 0px 0px;
+    font-size:12px;
+    list-style-type:none;
+    line-height:1.7em;
+    text-indent:0px;
+    background:white;
+}
+
+.slide_label{
+	font-size:11px;
+	margin:0px 0px 2px 0px;
+	padding:0px;
+	height:12px;
+}
+
+#slider {
+	position: absolute;
+	width: 100px;
+	top: 5px;
+	background: none repeat scroll 0% 0% transparent;
+	z-index: 10001;
+	right: 98px;
+}
+
+/*ジオコーディング*/
+
+input {
+	margin:2px 0px 0px 0px;
+	padding:0px;
+	width: 100px !important;
+}
+
+.loading {
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-32px;
+	margin-left:-32px;
+}
+
+.geocode {
+	opacity:0.7;
+	position:absolute;
+	top:18px;
+	left:55px;
+	z-index:10001;
+}
+
+.textbox {
+	border:0;
+	margin:0px;
+	padding:0px 0px 1px 2px;
+	font-size:12px;
+	width:100px;
+	height:15px;
+}
+
+/*ローディング*/
+
+#blackOut {
+	position:absolute;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:100%;
+	background:black;
+	z-index:10002;
+	opacity:0.6;
+}
+
+/*オリジナルバルーン*/
+
+#originalInfoBox {
+	position:absolute;
+	right:8px;
+	top:52px;
+	padding:0px;
+	margin:0px;
+	width:320px;
+	height:405px;
+	background:rgba(0,0,0,0.8);
+	border-radius:5px;
+	z-index:10010;
+}
+
+p.nameAndAge {
+	color:#BBBBBB;
+	font-family: "ＭＳ Ｐゴシック","ＭＳ ゴシック",sans-serif;
+	text-align:center;
+	padding:0px;
+	margin:5px 0px 5px 0px;
+	font-size:14px;
+}
+
+iframe.infoBox {
+	border:0;
+	height:370px;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+div.infoBox {
+	height:370px;
+	margin:0px 0px 0px 10px;
+	padding:0;
+	overflow:hidden;
+}

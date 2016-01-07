@@ -1,0 +1,2540 @@
+[
+    {
+        "id": "document",
+        "name": "nukufetau_atoll",
+        "version": "1.0"
+    },
+    {
+        "id": "nukufetau_atoll1",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-PA_55trR-E4/T4U326AvtRI/AAAAAAABMDA/Oa2UluylAw0/s400/_DSF1205.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-PA_55trR-E4/T4U326AvtRI/AAAAAAABMDA/Oa2UluylAw0/s32/_DSF1205.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3235,
+                -8.009833,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll2",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-XN9n6PiigQs/T4U33iSvkzI/AAAAAAABMDE/wT-QfQEXs1c/s400/_DSF1206.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-XN9n6PiigQs/T4U33iSvkzI/AAAAAAABMDE/wT-QfQEXs1c/s32/_DSF1206.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3235,
+                -8.009833,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll3",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-1rkrDJKHuZ8/T4U34a1qKdI/AAAAAAABMDM/9gfsR6-LV70/s400/_DSF1209.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-1rkrDJKHuZ8/T4U34a1qKdI/AAAAAAABMDM/9gfsR6-LV70/s32/_DSF1209.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.323333,
+                -8.0105,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll4",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-93RyBiY9qRk/T4U3568t2nI/AAAAAAABMDY/WMOLeBA10lc/s400/_DSF1211.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-93RyBiY9qRk/T4U3568t2nI/AAAAAAABMDY/WMOLeBA10lc/s32/_DSF1211.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.323167,
+                -8.010333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll5",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-Y-WfbQoYykM/T4U37sl_PJI/AAAAAAABMDg/Lry0P6qAnc4/s400/_DSF1212.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-Y-WfbQoYykM/T4U37sl_PJI/AAAAAAABMDg/Lry0P6qAnc4/s32/_DSF1212.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.323333,
+                -8.0101669,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll6",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-lou72qjimm4/T4U38KaI1GI/AAAAAAABMDo/hUO99PokFLE/s400/_DSF1213.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-lou72qjimm4/T4U38KaI1GI/AAAAAAABMDo/hUO99PokFLE/s32/_DSF1213.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.323167,
+                -8.010333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll7",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-0toLNxz0zNM/T4U382wlNCI/AAAAAAABMDs/eSu_-fL8llM/s400/_DSF1214.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-0toLNxz0zNM/T4U382wlNCI/AAAAAAABMDs/eSu_-fL8llM/s32/_DSF1214.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.323167,
+                -8.010333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll8",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-Ie5zysoW1nY/T4U39g7jqbI/AAAAAAABMD0/MrN82TuPIoQ/s400/_DSF1219.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-Ie5zysoW1nY/T4U39g7jqbI/AAAAAAABMD0/MrN82TuPIoQ/s32/_DSF1219.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3235,
+                -8.01,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll9",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-e1x_6XLJ_uM/T4U3-5CDDkI/AAAAAAABMEA/_shudTTV_Mo/s400/_DSF1226.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-e1x_6XLJ_uM/T4U3-5CDDkI/AAAAAAABMEA/_shudTTV_Mo/s32/_DSF1226.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.324,
+                -8.01,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll10",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-53VhKojeseI/T4U4AU59_cI/AAAAAAABMEI/8gwwmml3Wn8/s400/_DSF1227.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-53VhKojeseI/T4U4AU59_cI/AAAAAAABMEI/8gwwmml3Wn8/s32/_DSF1227.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.324,
+                -8.01,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll11",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-JxOXLw02rDU/T4U4A5z-5TI/AAAAAAABMEM/x6G_oMpTOgQ/s400/_DSF1230.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-JxOXLw02rDU/T4U4A5z-5TI/AAAAAAABMEM/x6G_oMpTOgQ/s32/_DSF1230.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.324667,
+                -8.009167,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll12",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-9--03FTIdZ8/T4U4BtWeIiI/AAAAAAABMEY/NY4sMRQAWQk/s400/_DSF1235.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-9--03FTIdZ8/T4U4BtWeIiI/AAAAAAABMEY/NY4sMRQAWQk/s32/_DSF1235.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.326,
+                -8.007667,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll13",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-Tl2v6uEr_no/T4U4C1xrTvI/AAAAAAABMEg/CSZGViiDjh4/s400/_DSF1237.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-Tl2v6uEr_no/T4U4C1xrTvI/AAAAAAABMEg/CSZGViiDjh4/s32/_DSF1237.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.327167,
+                -8.006333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll14",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/---MhQU2ViNE/T4U4DqVvzzI/AAAAAAABMEo/MvESibk8cQ4/s400/_DSF1240.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/---MhQU2ViNE/T4U4DqVvzzI/AAAAAAABMEo/MvESibk8cQ4/s32/_DSF1240.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.327833,
+                -8.0055,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll15",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-N0fToWzf-mI/T4U4EY-ORVI/AAAAAAABMEw/xz0boQR9FiU/s400/_DSF1241.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-N0fToWzf-mI/T4U4EY-ORVI/AAAAAAABMEw/xz0boQR9FiU/s32/_DSF1241.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.329,
+                -8.0025,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll16",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-m61HMmidbMA/T4U4FNtBxQI/AAAAAAABME0/7sED5t6u6xw/s400/_DSF1242.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-m61HMmidbMA/T4U4FNtBxQI/AAAAAAABME0/7sED5t6u6xw/s32/_DSF1242.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.328833,
+                -7.999667,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll17",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-hW_vrl4BvBw/T4U4GA7yReI/AAAAAAABMFA/EXFuw9bcOsI/s400/_DSF1243.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-hW_vrl4BvBw/T4U4GA7yReI/AAAAAAABMFA/EXFuw9bcOsI/s32/_DSF1243.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.328667,
+                -7.998,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll18",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-SQmGECvbAqo/T4U4IXc_sII/AAAAAAABMFE/KDokdCQvnkY/s400/_DSF1244.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-SQmGECvbAqo/T4U4IXc_sII/AAAAAAABMFE/KDokdCQvnkY/s32/_DSF1244.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.328667,
+                -7.997833,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll19",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-KGbug4A1ZyU/T4U4JKnAr6I/AAAAAAABMFM/FMlFVujAZLQ/s400/_DSF1245.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-KGbug4A1ZyU/T4U4JKnAr6I/AAAAAAABMFM/FMlFVujAZLQ/s32/_DSF1245.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3285,
+                -7.995833,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll20",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-7Jklk8XBKr0/T4U4KxMD7FI/AAAAAAABMFU/l8eUaZpFFQk/s400/_DSF1246.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-7Jklk8XBKr0/T4U4KxMD7FI/AAAAAAABMFU/l8eUaZpFFQk/s32/_DSF1246.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3285,
+                -7.995,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll21",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-5xWeUsz9Lg8/T4U4MZW8GRI/AAAAAAABMFg/WikZwOve-T8/s400/_DSF1247.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-5xWeUsz9Lg8/T4U4MZW8GRI/AAAAAAABMFg/WikZwOve-T8/s32/_DSF1247.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3295,
+                -7.9895,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll22",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-rtf-bVxkRoE/T4U4N9JwbhI/AAAAAAABMFo/BGwwAmGirtE/s400/_DSF1248.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-rtf-bVxkRoE/T4U4N9JwbhI/AAAAAAABMFo/BGwwAmGirtE/s32/_DSF1248.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.331167,
+                -7.985333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll23",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-kJyHMtidAY0/T4U4OmyHQ4I/AAAAAAABMFw/cmElRpj8W-M/s400/_DSF1251.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-kJyHMtidAY0/T4U4OmyHQ4I/AAAAAAABMFw/cmElRpj8W-M/s32/_DSF1251.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.334667,
+                -7.978833,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll24",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-BHg79flbdCc/T4U4PUp2EQI/AAAAAAABMF4/LZLsPIBOBDg/s400/_DSF1252.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-BHg79flbdCc/T4U4PUp2EQI/AAAAAAABMF4/LZLsPIBOBDg/s32/_DSF1252.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.337,
+                -7.976,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll25",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-Hm1GHCNEoHg/T4U4QB3nT7I/AAAAAAABMF8/VufjKhCszlk/s400/_DSF1257.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-Hm1GHCNEoHg/T4U4QB3nT7I/AAAAAAABMF8/VufjKhCszlk/s32/_DSF1257.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.344333,
+                -7.962167,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll26",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-Mdw4GAs6cic/T4U4S4M7PeI/AAAAAAABMGI/QlLgY6OCBEw/s400/_DSF1258.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-Mdw4GAs6cic/T4U4S4M7PeI/AAAAAAABMGI/QlLgY6OCBEw/s32/_DSF1258.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.345167,
+                -7.960333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll27",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-qWw7UO9MUcU/T4U4Tt5qw6I/AAAAAAABMGM/cjVEccIcCf8/s400/_DSF1259.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-qWw7UO9MUcU/T4U4Tt5qw6I/AAAAAAABMGM/cjVEccIcCf8/s32/_DSF1259.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.345333,
+                -7.960167,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll28",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-Bt1WB_kfge4/T4U4UVirnKI/AAAAAAABMGY/2kSIw8V-uJY/s400/_DSF1263.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-Bt1WB_kfge4/T4U4UVirnKI/AAAAAAABMGY/2kSIw8V-uJY/s32/_DSF1263.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.347,
+                -7.9605,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll29",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-OA8SKbpurs8/T4U4Vz4xkjI/AAAAAAABMGg/B7vsSQWa-0Y/s400/_DSF1264.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-OA8SKbpurs8/T4U4Vz4xkjI/AAAAAAABMGg/B7vsSQWa-0Y/s32/_DSF1264.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.347333,
+                -7.960667,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll30",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-cBIuo1xxP74/T4U4WozGSjI/AAAAAAABMGk/wOPB9qsG2PY/s400/_DSF1266.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-cBIuo1xxP74/T4U4WozGSjI/AAAAAAABMGk/wOPB9qsG2PY/s32/_DSF1266.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.348,
+                -7.960667,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll31",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-q7i5cObGAak/T4U4XPoLtQI/AAAAAAABMGw/w54gfmsVaMU/s400/_DSF1270.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-q7i5cObGAak/T4U4XPoLtQI/AAAAAAABMGw/w54gfmsVaMU/s32/_DSF1270.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.349333,
+                -7.9585,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll32",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-dfEWfje1pMU/T4U4Y_W_D3I/AAAAAAABMG4/nAjEzvXti6k/s400/_DSF1273.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-dfEWfje1pMU/T4U4Y_W_D3I/AAAAAAABMG4/nAjEzvXti6k/s32/_DSF1273.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.350167,
+                -7.956333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll33",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-4M-3O1FKJZ0/T4U4ZliHmHI/AAAAAAABMHA/2Yk7zkgs16s/s400/_DSF1274.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-4M-3O1FKJZ0/T4U4ZliHmHI/AAAAAAABMHA/2Yk7zkgs16s/s32/_DSF1274.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.351167,
+                -7.954667,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll34",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-b11wVVFMpyI/T4U4auHAH9I/AAAAAAABMHI/pFyK5jXsqG0/s400/_DSF1276.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-b11wVVFMpyI/T4U4auHAH9I/AAAAAAABMHI/pFyK5jXsqG0/s32/_DSF1276.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.352833,
+                -7.9525,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll35",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-tvQBXVxlP_o/T4U4bKPhN4I/AAAAAAABMHQ/_SmAGsRMbBI/s400/_DSF1278.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-tvQBXVxlP_o/T4U4bKPhN4I/AAAAAAABMHQ/_SmAGsRMbBI/s32/_DSF1278.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.354,
+                -7.9505,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll36",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-tuHJPG_Pngw/T4U4cGJT54I/AAAAAAABMHY/b2bvXugcYS8/s400/_DSF1280.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-tuHJPG_Pngw/T4U4cGJT54I/AAAAAAABMHY/b2bvXugcYS8/s32/_DSF1280.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.355667,
+                -7.949,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll37",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-BzZ-EedRQGw/T4U4c3mGeHI/AAAAAAABMHc/zkgDvzc0aHk/s400/_DSF1281.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-BzZ-EedRQGw/T4U4c3mGeHI/AAAAAAABMHc/zkgDvzc0aHk/s32/_DSF1281.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3565,
+                -7.948167,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll38",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-NttMLlad3_s/T4U4dow1_II/AAAAAAABMHo/i96KC0iRGLQ/s400/_DSF1289.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-NttMLlad3_s/T4U4dow1_II/AAAAAAABMHo/i96KC0iRGLQ/s32/_DSF1289.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.361333,
+                -7.9445,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll39",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-8Aa64Hymit0/T4U4ezguL0I/AAAAAAABMH4/gJc5KnXhy60/s400/_DSF1293.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-8Aa64Hymit0/T4U4ezguL0I/AAAAAAABMH4/gJc5KnXhy60/s32/_DSF1293.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.362333,
+                -7.942333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll40",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-FwD52cyoCS8/T4U4fb0Mf1I/AAAAAAABMH0/H6ic5KZCf0M/s400/_DSF1301.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-FwD52cyoCS8/T4U4fb0Mf1I/AAAAAAABMH0/H6ic5KZCf0M/s32/_DSF1301.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3615,
+                -7.942333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll41",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-VSzr0WhpblA/T4U4gEUbnuI/AAAAAAABMIA/I8jFl5-Hp0w/s400/_DSF1306.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-VSzr0WhpblA/T4U4gEUbnuI/AAAAAAABMIA/I8jFl5-Hp0w/s32/_DSF1306.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3615,
+                -7.942167,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll42",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-tURhY549WdY/T4U4gwDjd0I/AAAAAAABMIE/zHSzhKshgq0/s400/_DSF1308.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-tURhY549WdY/T4U4gwDjd0I/AAAAAAABMIE/zHSzhKshgq0/s32/_DSF1308.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3615,
+                -7.942333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll43",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-yMtI7uF2jZU/T4U4h9wiziI/AAAAAAABMIQ/s1qKyqyOcUA/s400/_DSF1309.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-yMtI7uF2jZU/T4U4h9wiziI/AAAAAAABMIQ/s1qKyqyOcUA/s32/_DSF1309.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3615,
+                -7.942333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll44",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-_7B87a0V4DM/T4U4jlEt1BI/AAAAAAABMIU/4jTjNYwh6XU/s400/_DSF1311.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-_7B87a0V4DM/T4U4jlEt1BI/AAAAAAABMIU/4jTjNYwh6XU/s32/_DSF1311.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3615,
+                -7.942333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll45",
+        "name": "2010-08-20",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-M-s_eLXU7Ec/T4U4ke_2gPI/AAAAAAABMIc/4S21GgOyAVo/s400/_DSF1313.JPG\"></p><p class=\"photographDay\">2010-08-20</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-M-s_eLXU7Ec/T4U4ke_2gPI/AAAAAAABMIc/4S21GgOyAVo/s32/_DSF1313.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3615,
+                -7.942333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll46",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-TUfY1vdahpU/T4U4mLIiimI/AAAAAAABMIo/Elvb4CUFc84/s400/_DSF1327.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-TUfY1vdahpU/T4U4mLIiimI/AAAAAAABMIo/Elvb4CUFc84/s32/_DSF1327.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.373,
+                -7.937333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll47",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-g9452fTUijo/T4U4nX7oT7I/AAAAAAABMIw/xQXkYUTGJLM/s400/_DSF1335.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-g9452fTUijo/T4U4nX7oT7I/AAAAAAABMIw/xQXkYUTGJLM/s32/_DSF1335.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.380333,
+                -7.9375,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll48",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-HHsIyofcYOw/T4U4oJBZy3I/AAAAAAABMI0/ia0felMPW1s/s400/_DSF1337.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-HHsIyofcYOw/T4U4oJBZy3I/AAAAAAABMI0/ia0felMPW1s/s32/_DSF1337.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.382333,
+                -7.937833,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll49",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-z2-1qzesMrI/T4U4o6DzrbI/AAAAAAABMJA/f0-46pyLWdE/s400/_DSF1338.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-z2-1qzesMrI/T4U4o6DzrbI/AAAAAAABMJA/f0-46pyLWdE/s32/_DSF1338.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.383833,
+                -7.937833,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll50",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-igxUBLfsRm0/T4U4qGS_eYI/AAAAAAABMJI/jaXMvtvmNjU/s400/_DSF1339.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-igxUBLfsRm0/T4U4qGS_eYI/AAAAAAABMJI/jaXMvtvmNjU/s32/_DSF1339.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3885,
+                -7.939333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll51",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-iC8btymPUdg/T4U4qwePhYI/AAAAAAABMJM/fUyZGJjob_g/s400/_DSF1351.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-iC8btymPUdg/T4U4qwePhYI/AAAAAAABMJM/fUyZGJjob_g/s32/_DSF1351.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.388667,
+                -7.939167,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll52",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-dDLngQMi1UE/T4U4r_GDs6I/AAAAAAABMJY/EypRw-jFTFM/s400/_DSF1352.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-dDLngQMi1UE/T4U4r_GDs6I/AAAAAAABMJY/EypRw-jFTFM/s32/_DSF1352.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.388333,
+                -7.939167,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll53",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-GMIkkKdxKow/T4U4uGcHMdI/AAAAAAABMJg/_zIdzEeGzMY/s400/_DSF1361.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-GMIkkKdxKow/T4U4uGcHMdI/AAAAAAABMJg/_zIdzEeGzMY/s32/_DSF1361.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.391333,
+                -7.9405,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll54",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-qJlJ6xWx-qg/T4U4uziFiPI/AAAAAAABMJo/VUUZaAosxnc/s400/_DSF1362.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-qJlJ6xWx-qg/T4U4uziFiPI/AAAAAAABMJo/VUUZaAosxnc/s32/_DSF1362.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.392667,
+                -7.941167,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll55",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-dXDZb1IPKUQ/T4U4vlj59qI/AAAAAAABMJw/8K-jCiKxe70/s400/_DSF1364.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-dXDZb1IPKUQ/T4U4vlj59qI/AAAAAAABMJw/8K-jCiKxe70/s32/_DSF1364.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.393333,
+                -7.942167,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll56",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-5rnTJXmWG28/T4U4wtpOW-I/AAAAAAABMJ4/Hmp7Kn_XIM4/s400/_DSF1365.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-5rnTJXmWG28/T4U4wtpOW-I/AAAAAAABMJ4/Hmp7Kn_XIM4/s32/_DSF1365.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3935,
+                -7.943,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll57",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-etb7P1IdMdY/T4U4xpEwISI/AAAAAAABMKA/rxXtcEUGb9g/s400/_DSF1366.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-etb7P1IdMdY/T4U4xpEwISI/AAAAAAABMKA/rxXtcEUGb9g/s32/_DSF1366.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.394333,
+                -7.943667,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll58",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-nbw4O4D5l4Y/T4U4ybFdedI/AAAAAAABMKI/Vm8fbYVs74E/s400/_DSF1367.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-nbw4O4D5l4Y/T4U4ybFdedI/AAAAAAABMKI/Vm8fbYVs74E/s32/_DSF1367.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3945,
+                -7.943833,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll59",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-5zsv7wvozII/T4U4y0pKJiI/AAAAAAABMKM/FqP6J-VODys/s400/_DSF1372.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-5zsv7wvozII/T4U4y0pKJiI/AAAAAAABMKM/FqP6J-VODys/s32/_DSF1372.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.4028329,
+                -7.949833,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll60",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-9XcpSpzbo40/T4U4zwKwsuI/AAAAAAABMKY/vVJ_2mREN4M/s400/_DSF1375.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-9XcpSpzbo40/T4U4zwKwsuI/AAAAAAABMKY/vVJ_2mREN4M/s32/_DSF1375.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.403333,
+                -7.949833,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll61",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-GjVsrqT6baA/T4U42NSdlnI/AAAAAAABMKg/sAEI7TdkHpU/s400/_DSF1378.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-GjVsrqT6baA/T4U42NSdlnI/AAAAAAABMKg/sAEI7TdkHpU/s32/_DSF1378.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.411,
+                -7.950333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll62",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-luQwTyyoOL4/T4U43lB8YHI/AAAAAAABMKs/LyTzTmnGeEI/s400/_DSF1381.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-luQwTyyoOL4/T4U43lB8YHI/AAAAAAABMKs/LyTzTmnGeEI/s32/_DSF1381.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.413,
+                -7.9505,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll63",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-o0a0dIN3FmY/T4U45AkpD5I/AAAAAAABMKw/kB8SIcPOKn8/s400/_DSF1382.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-o0a0dIN3FmY/T4U45AkpD5I/AAAAAAABMKw/kB8SIcPOKn8/s32/_DSF1382.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.414167,
+                -7.951,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll64",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-EZFtAu0YwoA/T4U4590ELJI/AAAAAAABMK8/Hr81OLxxayY/s400/_DSF1383.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-EZFtAu0YwoA/T4U4590ELJI/AAAAAAABMK8/Hr81OLxxayY/s32/_DSF1383.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.4145,
+                -7.951167,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll65",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-TTA1X2EfwfM/T4U47RdDB9I/AAAAAAABMLA/5jwwH2S-158/s400/_DSF1384.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-TTA1X2EfwfM/T4U47RdDB9I/AAAAAAABMLA/5jwwH2S-158/s32/_DSF1384.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.414667,
+                -7.951333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll66",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-wjbXfb-dPFw/T4U48A6Q2rI/AAAAAAABMLM/LNGKfNPrYjg/s400/_DSF1385.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-wjbXfb-dPFw/T4U48A6Q2rI/AAAAAAABMLM/LNGKfNPrYjg/s32/_DSF1385.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.415,
+                -7.951333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll67",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-53VijMuRIDE/T4U49Dpy5uI/AAAAAAABMLU/ISypfHiqu5k/s400/_DSF1386.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-53VijMuRIDE/T4U49Dpy5uI/AAAAAAABMLU/ISypfHiqu5k/s32/_DSF1386.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.416333,
+                -7.952167,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll68",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-tsIvYKSdKlo/T4U497Ga5II/AAAAAAABMLc/cHe2wzhDGwE/s400/_DSF1387.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-tsIvYKSdKlo/T4U497Ga5II/AAAAAAABMLc/cHe2wzhDGwE/s32/_DSF1387.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.416667,
+                -7.952667,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll69",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-hGWCJresStU/T4U4-rj-YZI/AAAAAAABMLk/KyLZC-QfUUs/s400/_DSF1388.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-hGWCJresStU/T4U4-rj-YZI/AAAAAAABMLk/KyLZC-QfUUs/s32/_DSF1388.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.417333,
+                -7.953167,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll70",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-hLPxiLXBeBs/T4U4_ccLo6I/AAAAAAABMLs/OqLd4Y8F18Q/s400/_DSF1389.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-hLPxiLXBeBs/T4U4_ccLo6I/AAAAAAABMLs/OqLd4Y8F18Q/s32/_DSF1389.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.418167,
+                -7.953667,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll71",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-DgM9xANR6ZQ/T4U5ADbzGBI/AAAAAAABMLw/ezIJMFOGfWI/s400/_DSF1390.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-DgM9xANR6ZQ/T4U5ADbzGBI/AAAAAAABMLw/ezIJMFOGfWI/s32/_DSF1390.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.418667,
+                -7.954,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll72",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-2pFX7I0hNy4/T4U5A9cLkLI/AAAAAAABML8/a2tDOp_kS3Q/s400/_DSF1391.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-2pFX7I0hNy4/T4U5A9cLkLI/AAAAAAABML8/a2tDOp_kS3Q/s32/_DSF1391.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.4191669,
+                -7.9545,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll73",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-4-p4YTAknNc/T4U5CTwRIVI/AAAAAAABMMA/bV6YTBkOZwo/s400/_DSF1392.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-4-p4YTAknNc/T4U5CTwRIVI/AAAAAAABMMA/bV6YTBkOZwo/s32/_DSF1392.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.425667,
+                -7.962333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll74",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-6EfSuhCyS1U/T4U5DEKW-fI/AAAAAAABMMM/J9iC6h9vOzg/s400/_DSF1394.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-6EfSuhCyS1U/T4U5DEKW-fI/AAAAAAABMMM/J9iC6h9vOzg/s32/_DSF1394.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.4259999,
+                -7.962833,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll75",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-HTMmkfbgwFo/T4U5EW2TQdI/AAAAAAABMMU/BWi8NkQYSiE/s400/_DSF1395.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-HTMmkfbgwFo/T4U5EW2TQdI/AAAAAAABMMU/BWi8NkQYSiE/s32/_DSF1395.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.426167,
+                -7.963167,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll76",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-3f5j47RIO5k/T4U5FEIGt0I/AAAAAAABMMc/ZPVFjAxA2vQ/s400/_DSF1396.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-3f5j47RIO5k/T4U5FEIGt0I/AAAAAAABMMc/ZPVFjAxA2vQ/s32/_DSF1396.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.426333,
+                -7.9635,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll77",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-iRTojAeQeDo/T4U5F5m2nNI/AAAAAAABMMk/L14vwZE_i2w/s400/_DSF1397.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-iRTojAeQeDo/T4U5F5m2nNI/AAAAAAABMMk/L14vwZE_i2w/s32/_DSF1397.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.4265,
+                -7.963667,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll78",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-9U_WXTceqY8/T4U5GwlCVNI/AAAAAAABMMs/dzdHOySSf3A/s400/_DSF1405.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-9U_WXTceqY8/T4U5GwlCVNI/AAAAAAABMMs/dzdHOySSf3A/s32/_DSF1405.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.427167,
+                -7.969333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll79",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-MQYpP9CqGCs/T4U5Hwa181I/AAAAAAABMM0/TxLGb0EJCiU/s400/_DSF1410.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-MQYpP9CqGCs/T4U5Hwa181I/AAAAAAABMM0/TxLGb0EJCiU/s32/_DSF1410.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.427833,
+                -7.974667,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll80",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-fv-RA6jUxgk/T4U5IX0Ke2I/AAAAAAABMM4/fSDW_EUYsxI/s400/_DSF1411.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-fv-RA6jUxgk/T4U5IX0Ke2I/AAAAAAABMM4/fSDW_EUYsxI/s32/_DSF1411.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.427833,
+                -7.975,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll81",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-pJkjegT982E/T4U5JXrPk2I/AAAAAAABMNA/WVcCpH4PGvg/s400/_DSF1415.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-pJkjegT982E/T4U5JXrPk2I/AAAAAAABMNA/WVcCpH4PGvg/s32/_DSF1415.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.4285,
+                -7.975333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll82",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-9oYJcpPIRJQ/T4U5KjkKw2I/AAAAAAABMNI/SO7tVgkv1fM/s400/_DSF1416.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-9oYJcpPIRJQ/T4U5KjkKw2I/AAAAAAABMNI/SO7tVgkv1fM/s32/_DSF1416.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.4285,
+                -7.975333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll83",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-hzG7DnslBdI/T4U5Mo2_HXI/AAAAAAABMNQ/PWKAcOHZkgQ/s400/_DSF1419.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-hzG7DnslBdI/T4U5Mo2_HXI/AAAAAAABMNQ/PWKAcOHZkgQ/s32/_DSF1419.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.4285,
+                -7.9755,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll84",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-Sx8r_eRejuk/T4U5OXy57sI/AAAAAAABMNc/SVc1KntYQU4/s400/_DSF1440.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-Sx8r_eRejuk/T4U5OXy57sI/AAAAAAABMNc/SVc1KntYQU4/s32/_DSF1440.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.429833,
+                -7.977333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll85",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-eAVRPJv0xf0/T4U5PVhTgKI/AAAAAAABMNk/mCUJ3y6hSKg/s400/_DSF1442.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-eAVRPJv0xf0/T4U5PVhTgKI/AAAAAAABMNk/mCUJ3y6hSKg/s32/_DSF1442.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.428333,
+                -7.975667,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll86",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-0SzfLAiOmnE/T4U5QNEWO4I/AAAAAAABMNs/obzxHPFv3BM/s400/_DSF1454.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-0SzfLAiOmnE/T4U5QNEWO4I/AAAAAAABMNs/obzxHPFv3BM/s32/_DSF1454.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.420667,
+                -7.987333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll87",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-mxSC69av4kA/T4U5Q2Asi_I/AAAAAAABMN0/e-eHQqfBTxw/s400/_DSF1456.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-mxSC69av4kA/T4U5Q2Asi_I/AAAAAAABMN0/e-eHQqfBTxw/s32/_DSF1456.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.420667,
+                -7.9875,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll88",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-owK7K_AU2dw/T4U5Ri1gkZI/AAAAAAABMN4/Kkkeb1kFm1E/s400/_DSF1460.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-owK7K_AU2dw/T4U5Ri1gkZI/AAAAAAABMN4/Kkkeb1kFm1E/s32/_DSF1460.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.419667,
+                -7.989333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll89",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-rHIAaC2CU-c/T4U5SEwy1rI/AAAAAAABMOI/Mwopc96yUic/s400/_DSF1462.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-rHIAaC2CU-c/T4U5SEwy1rI/AAAAAAABMOI/Mwopc96yUic/s32/_DSF1462.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.418667,
+                -7.990333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll90",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-9ZfNRqL9k3Q/T4U5UJHKzyI/AAAAAAABMOQ/l0L_y3Pnx1o/s400/_DSF1466.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-9ZfNRqL9k3Q/T4U5UJHKzyI/AAAAAAABMOQ/l0L_y3Pnx1o/s32/_DSF1466.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.417833,
+                -7.991167,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll91",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-ydkisB9WyNI/T4U5UvmxWRI/AAAAAAABMOY/uxKKe8t0YiM/s400/_DSF1469.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-ydkisB9WyNI/T4U5UvmxWRI/AAAAAAABMOY/uxKKe8t0YiM/s32/_DSF1469.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.417333,
+                -7.992,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll92",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-nQGTKqDDGNU/T4U5VUwenYI/AAAAAAABMOg/0OXyh4rVBRw/s400/_DSF1470.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-nQGTKqDDGNU/T4U5VUwenYI/AAAAAAABMOg/0OXyh4rVBRw/s32/_DSF1470.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.414333,
+                -7.9945,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll93",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-2E84grFuqdQ/T4U5WEOR08I/AAAAAAABMOk/vMfJD2Pshuc/s400/_DSF1471.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-2E84grFuqdQ/T4U5WEOR08I/AAAAAAABMOk/vMfJD2Pshuc/s32/_DSF1471.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.411667,
+                -7.997167,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll94",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-um-gXJLuHLs/T4U5XJxfahI/AAAAAAABMOw/ubP21YadNOs/s400/_DSF1472.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-um-gXJLuHLs/T4U5XJxfahI/AAAAAAABMOw/ubP21YadNOs/s32/_DSF1472.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.410667,
+                -7.998167,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll95",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-K_TQL5rP6Xs/T4U5Y_tz2_I/AAAAAAABMO4/pEB7USkY_jo/s400/_DSF1473.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-K_TQL5rP6Xs/T4U5Y_tz2_I/AAAAAAABMO4/pEB7USkY_jo/s32/_DSF1473.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.400833,
+                -8.0101669,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll96",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-3OVWu9C8iTc/T4U5ZRYq56I/AAAAAAABMO8/vD9ybHEU6eA/s400/_DSF1474.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-3OVWu9C8iTc/T4U5ZRYq56I/AAAAAAABMO8/vD9ybHEU6eA/s32/_DSF1474.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.400667,
+                -8.0101669,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll97",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-zhuRptmcfe4/T4U5Z2QmzXI/AAAAAAABMPI/jfE0U8R8vw0/s400/_DSF1475.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-zhuRptmcfe4/T4U5Z2QmzXI/AAAAAAABMPI/jfE0U8R8vw0/s32/_DSF1475.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.400667,
+                -8.010333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll98",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-TvsmNZSB2gQ/T4U5cEZew8I/AAAAAAABMPU/VrHN52EwkHE/s400/_DSF1477.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-TvsmNZSB2gQ/T4U5cEZew8I/AAAAAAABMPU/VrHN52EwkHE/s32/_DSF1477.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.4,
+                -8.0109999,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll99",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-p51kP7g9uGE/T4U5dSHmzAI/AAAAAAABMPg/DxEc-t-Oiww/s400/_DSF1478.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-p51kP7g9uGE/T4U5dSHmzAI/AAAAAAABMPg/DxEc-t-Oiww/s32/_DSF1478.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.4,
+                -8.0109999,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll100",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-csA4cgytu1E/T4U5e_7GguI/AAAAAAABMPk/JuCv8MX5l3g/s400/_DSF1479.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-csA4cgytu1E/T4U5e_7GguI/AAAAAAABMPk/JuCv8MX5l3g/s32/_DSF1479.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.399667,
+                -8.011333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll101",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-H5MiMvBYVus/T4U5fmbTcHI/AAAAAAABMPw/-oRbLuGKKOE/s400/_DSF1481.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-H5MiMvBYVus/T4U5fmbTcHI/AAAAAAABMPw/-oRbLuGKKOE/s32/_DSF1481.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3995,
+                -8.0115,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll102",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-T5BjXxtewjU/T4U5g9dPUZI/AAAAAAABMP4/RJKu-PXdrbo/s400/_DSF1482.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-T5BjXxtewjU/T4U5g9dPUZI/AAAAAAABMP4/RJKu-PXdrbo/s32/_DSF1482.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.399333,
+                -8.011833,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll103",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-3Iu0eCX2_40/T4U5hsWwyEI/AAAAAAABMQA/lvGmOST9TsM/s400/_DSF1483.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-3Iu0eCX2_40/T4U5hsWwyEI/AAAAAAABMQA/lvGmOST9TsM/s32/_DSF1483.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.399333,
+                -8.012,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll104",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-8V0fDC1mfi8/T4U5iEA8wxI/AAAAAAABMQI/0X-5TUCNXso/s400/_DSF1484.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-8V0fDC1mfi8/T4U5iEA8wxI/AAAAAAABMQI/0X-5TUCNXso/s32/_DSF1484.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.399,
+                -8.0125,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll105",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-GcLxnOVJdWk/T4U5i8DKyVI/AAAAAAABMQQ/WOCX-e_Xvb0/s400/_DSF1485.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-GcLxnOVJdWk/T4U5i8DKyVI/AAAAAAABMQQ/WOCX-e_Xvb0/s32/_DSF1485.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.383667,
+                -8.038333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll106",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-t19ZbjId2vU/T4U5jQA77iI/AAAAAAABMQY/viPFHzI9oZU/s400/_DSF1486.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-t19ZbjId2vU/T4U5jQA77iI/AAAAAAABMQY/viPFHzI9oZU/s32/_DSF1486.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.383667,
+                -8.0385,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll107",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-4iNjVnS0pRI/T4U5kIkn6WI/AAAAAAABMQg/dr_xkU1Apdw/s400/_DSF1487.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-4iNjVnS0pRI/T4U5kIkn6WI/AAAAAAABMQg/dr_xkU1Apdw/s32/_DSF1487.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3835,
+                -8.039167,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll108",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-N1yjQLpd6Es/T4U5lNIhIgI/AAAAAAABMQo/XxMHpCel3AE/s400/_DSF1488.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-N1yjQLpd6Es/T4U5lNIhIgI/AAAAAAABMQo/XxMHpCel3AE/s32/_DSF1488.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3785,
+                -8.050167,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll109",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-YDovPB2VOpo/T4U5mCJIt7I/AAAAAAABMQw/XvZHTHT6vQk/s400/_DSF1489.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-YDovPB2VOpo/T4U5mCJIt7I/AAAAAAABMQw/XvZHTHT6vQk/s32/_DSF1489.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.377,
+                -8.053667,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll110",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-FJ8gUYw3eng/T4U5nFbu-oI/AAAAAAABMQ0/_i9LSLxVJeU/s400/_DSF1491.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-FJ8gUYw3eng/T4U5nFbu-oI/AAAAAAABMQ0/_i9LSLxVJeU/s32/_DSF1491.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.376333,
+                -8.055,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll111",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-j4f88kOdP5w/T4U5nmBv3WI/AAAAAAABMRA/5SAUkNGf6EE/s400/_DSF1493.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-j4f88kOdP5w/T4U5nmBv3WI/AAAAAAABMRA/5SAUkNGf6EE/s32/_DSF1493.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.376667,
+                -8.057667,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll112",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-oA7riyCq9Hs/T4U5p5DLZCI/AAAAAAABMRI/0rQVv5MjXfU/s400/_DSF1496.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-oA7riyCq9Hs/T4U5p5DLZCI/AAAAAAABMRI/0rQVv5MjXfU/s32/_DSF1496.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.376,
+                -8.058667,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll113",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-pliLph_vMG4/T4U5qmloe-I/AAAAAAABMRU/Wkt5rnjzHgU/s400/_DSF1497.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-pliLph_vMG4/T4U5qmloe-I/AAAAAAABMRU/Wkt5rnjzHgU/s32/_DSF1497.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.375667,
+                -8.0596669,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll114",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-obTZw0vIcxk/T4U5rJPmPmI/AAAAAAABMRQ/jdUvykuD_kY/s400/_DSF1498.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-obTZw0vIcxk/T4U5rJPmPmI/AAAAAAABMRQ/jdUvykuD_kY/s32/_DSF1498.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.375667,
+                -8.06,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll115",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-dOhzW14pKVA/T4U5sw2HrGI/AAAAAAABMRc/Zr_lIfRz464/s400/_DSF1499.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-dOhzW14pKVA/T4U5sw2HrGI/AAAAAAABMRc/Zr_lIfRz464/s32/_DSF1499.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.375833,
+                -8.060333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll116",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-tnvwbKiZrvo/T4U5tpoaOrI/AAAAAAABMRo/Vt3p6J03v30/s400/_DSF1500.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-tnvwbKiZrvo/T4U5tpoaOrI/AAAAAAABMRo/Vt3p6J03v30/s32/_DSF1500.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.376167,
+                -8.061333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll117",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-GQrFhaYi90o/T4U5vhkZiyI/AAAAAAABMR0/oHrj2QRxMl4/s400/_DSF1511.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-GQrFhaYi90o/T4U5vhkZiyI/AAAAAAABMR0/oHrj2QRxMl4/s32/_DSF1511.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3765,
+                -8.061333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll118",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-wKujLix1N48/T4U5wRi6vvI/AAAAAAABMSA/lgTRJ_-0YYY/s400/_DSF1512.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-wKujLix1N48/T4U5wRi6vvI/AAAAAAABMSA/lgTRJ_-0YYY/s32/_DSF1512.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.377833,
+                -8.060333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll119",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-abE3gZDE8Yg/T4U5yHEr3ZI/AAAAAAABMSE/kI2bJGcbEPo/s400/_DSF1516.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-abE3gZDE8Yg/T4U5yHEr3ZI/AAAAAAABMSE/kI2bJGcbEPo/s32/_DSF1516.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.377833,
+                -8.060167,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll120",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-3zFEesDPRAk/T4U5yzJS73I/AAAAAAABMSQ/SypyJQRRz94/s400/_DSF1521.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-3zFEesDPRAk/T4U5yzJS73I/AAAAAAABMSQ/SypyJQRRz94/s32/_DSF1521.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3765,
+                -8.061667,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll121",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-hOqS0Kpoygs/T4U5089rI6I/AAAAAAABMSU/OoRZ5WrUHdk/s400/_DSF1522.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-hOqS0Kpoygs/T4U5089rI6I/AAAAAAABMSU/OoRZ5WrUHdk/s32/_DSF1522.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.378333,
+                -8.0615,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll122",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-3DwECIas3hE/T4U515EwryI/AAAAAAABMSg/ukFHwbFiC9o/s400/_DSF1525.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-3DwECIas3hE/T4U515EwryI/AAAAAAABMSg/ukFHwbFiC9o/s32/_DSF1525.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.378333,
+                -8.0615,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll123",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-mvQ4jbrJHkM/T4U52mHE51I/AAAAAAABMS4/PDM6595pL0Q/s400/_DSF1530.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-mvQ4jbrJHkM/T4U52mHE51I/AAAAAAABMS4/PDM6595pL0Q/s32/_DSF1530.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3685,
+                -8.0545,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll124",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-pOpmwQi_Zwc/T4U53ARHn7I/AAAAAAABMSo/A9dDNDzuCwQ/s400/_DSF1531.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-pOpmwQi_Zwc/T4U53ARHn7I/AAAAAAABMSo/A9dDNDzuCwQ/s32/_DSF1531.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3625,
+                -8.049833,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll125",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-ulh7aV9rVdU/T4U533LKQsI/AAAAAAABMS0/hgA20cJGw1Y/s400/_DSF1532.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-ulh7aV9rVdU/T4U533LKQsI/AAAAAAABMS0/hgA20cJGw1Y/s32/_DSF1532.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.361,
+                -8.049,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll126",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-q35esqHUjaE/T4U54zxdvXI/AAAAAAABMS8/3a7BZwrrUfY/s400/_DSF1534.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-q35esqHUjaE/T4U54zxdvXI/AAAAAAABMS8/3a7BZwrrUfY/s32/_DSF1534.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.349,
+                -8.041833,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll127",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-c3M_31uZSr8/T4U55R_YoLI/AAAAAAABMTI/FtTlPB9RynA/s400/_DSF1535.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-c3M_31uZSr8/T4U55R_YoLI/AAAAAAABMTI/FtTlPB9RynA/s32/_DSF1535.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.348833,
+                -8.041667,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll128",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-hUCYE56IVNs/T4U57aQ7m1I/AAAAAAABMTM/xegZln3eCKw/s400/_DSF1537.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-hUCYE56IVNs/T4U57aQ7m1I/AAAAAAABMTM/xegZln3eCKw/s32/_DSF1537.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3375,
+                -8.0365,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll129",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-8HfTTy_nV5U/T4U57_amLkI/AAAAAAABMTY/84S7wqVmOO8/s400/_DSF1539.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-8HfTTy_nV5U/T4U57_amLkI/AAAAAAABMTY/84S7wqVmOO8/s32/_DSF1539.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3315,
+                -8.034,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll130",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-pOtjIsUz_dk/T4U59Q0KQOI/AAAAAAABMTg/_JtMeZ-KbaM/s400/_DSF1541.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-pOtjIsUz_dk/T4U59Q0KQOI/AAAAAAABMTg/_JtMeZ-KbaM/s32/_DSF1541.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.326833,
+                -8.034833,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll131",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-s7R3Cc2wV84/T4U598xrhzI/AAAAAAABMTo/wtB-aJwyHOk/s400/_DSF1542.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-s7R3Cc2wV84/T4U598xrhzI/AAAAAAABMTo/wtB-aJwyHOk/s32/_DSF1542.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.326833,
+                -8.034833,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll132",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/--VJ2Bj4C3eE/T4U5-nFNUWI/AAAAAAABMTw/FXAGccKEiQg/s400/_DSF1543.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/--VJ2Bj4C3eE/T4U5-nFNUWI/AAAAAAABMTw/FXAGccKEiQg/s32/_DSF1543.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.325333,
+                -8.0355,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll133",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-RCcZ5_6QNj8/T4U5_AyursI/AAAAAAABMT0/YaCFH6m52MA/s400/_DSF1546.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-RCcZ5_6QNj8/T4U5_AyursI/AAAAAAABMT0/YaCFH6m52MA/s32/_DSF1546.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.325,
+                -8.035833,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll134",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-qxCSgGE76x8/T4U6Ar3E6PI/AAAAAAABMT8/Sv2iK_Dd1fU/s400/_DSF1547.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-qxCSgGE76x8/T4U6Ar3E6PI/AAAAAAABMT8/Sv2iK_Dd1fU/s32/_DSF1547.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.325,
+                -8.035833,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll135",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-LAhEgKd-VfY/T4U6CVTkJsI/AAAAAAABMUI/wFH0UNJv0DA/s400/_DSF1548.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-LAhEgKd-VfY/T4U6CVTkJsI/AAAAAAABMUI/wFH0UNJv0DA/s32/_DSF1548.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.325,
+                -8.035833,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll136",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-y-8poBbZpYE/T4U6DpjNh6I/AAAAAAABMUM/2awfepegjdo/s400/_DSF1549.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-y-8poBbZpYE/T4U6DpjNh6I/AAAAAAABMUM/2awfepegjdo/s32/_DSF1549.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.324833,
+                -8.036,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll137",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-GHvRwIq6rqQ/T4U6ECnMCPI/AAAAAAABMUU/rYmQfwOQcIU/s400/_DSF1550.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-GHvRwIq6rqQ/T4U6ECnMCPI/AAAAAAABMUU/rYmQfwOQcIU/s32/_DSF1550.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.324833,
+                -8.036167,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll138",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-NLe7aPlZfa4/T4U6Fb_BExI/AAAAAAABMUg/hxBnlQpgKqE/s400/_DSF1553.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-NLe7aPlZfa4/T4U6Fb_BExI/AAAAAAABMUg/hxBnlQpgKqE/s32/_DSF1553.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3245,
+                -8.0365,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll139",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-7Zucd27fLfE/T4U6HC3jpHI/AAAAAAABMUo/4xJ9cOFQ9Nw/s400/_DSF1554.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-7Zucd27fLfE/T4U6HC3jpHI/AAAAAAABMUo/4xJ9cOFQ9Nw/s32/_DSF1554.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3245,
+                -8.0365,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll140",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-nr9uK829V1Q/T4U6HlVpCBI/AAAAAAABMUw/_q_07goufN8/s400/_DSF1555.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-nr9uK829V1Q/T4U6HlVpCBI/AAAAAAABMUw/_q_07goufN8/s32/_DSF1555.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3245,
+                -8.0365,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll141",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-FbleNEuIyf8/T4U6IURzxdI/AAAAAAABMU4/Qj3g9rZg1sA/s400/_DSF1556.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-FbleNEuIyf8/T4U6IURzxdI/AAAAAAABMU4/Qj3g9rZg1sA/s32/_DSF1556.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.324333,
+                -8.0365,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll142",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-ASDUJbq3AcU/T4U6I_XAGwI/AAAAAAABMVA/kfX69h7oqAA/s400/_DSF1558.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-ASDUJbq3AcU/T4U6I_XAGwI/AAAAAAABMVA/kfX69h7oqAA/s32/_DSF1558.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.324,
+                -8.036167,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll143",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh6.googleusercontent.com/-NgrzM_08Pxw/T4U6JwoB7ZI/AAAAAAABMVI/1MfoXAOPNdU/s400/_DSF1560.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh6.googleusercontent.com/-NgrzM_08Pxw/T4U6JwoB7ZI/AAAAAAABMVI/1MfoXAOPNdU/s32/_DSF1560.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.324,
+                -8.036167,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll144",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-14eMxOX4Vcg/T4U6KoUMeXI/AAAAAAABMVM/DsDEltxTqbw/s400/_DSF1561.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-14eMxOX4Vcg/T4U6KoUMeXI/AAAAAAABMVM/DsDEltxTqbw/s32/_DSF1561.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.324,
+                -8.036167,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll145",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-s_t6BshqdzA/T4U6LSTZxqI/AAAAAAABMVY/TfyozOWOhzQ/s400/_DSF1565.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-s_t6BshqdzA/T4U6LSTZxqI/AAAAAAABMVY/TfyozOWOhzQ/s32/_DSF1565.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.323167,
+                -8.034,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll146",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-09qBMyBOXuM/T4U6MzjGKAI/AAAAAAABMVc/nyuK9sFZO2A/s400/_DSF1572.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-09qBMyBOXuM/T4U6MzjGKAI/AAAAAAABMVc/nyuK9sFZO2A/s32/_DSF1572.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.321833,
+                -8.031333,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll147",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh5.googleusercontent.com/-l-jaYYgm2AA/T4U6N5RwdSI/AAAAAAABMVo/8gFPfI8ceIk/s400/_DSF1573.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh5.googleusercontent.com/-l-jaYYgm2AA/T4U6N5RwdSI/AAAAAAABMVo/8gFPfI8ceIk/s32/_DSF1573.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.3214999,
+                -8.030833,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll148",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh3.googleusercontent.com/-P10dvYUGT9s/T4U6OuhzcuI/AAAAAAABMVs/w3UV7nFC7TE/s400/_DSF1575.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh3.googleusercontent.com/-P10dvYUGT9s/T4U6OuhzcuI/AAAAAAABMVs/w3UV7nFC7TE/s32/_DSF1575.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.321333,
+                -8.030667,
+                0
+            ]
+        }
+    },
+    {
+        "id": "nukufetau_atoll149",
+        "name": "2010-08-21",
+        "description": "<div class=\"photographBalloon\"><p class=\"photographImg\"><img src=\"https://lh4.googleusercontent.com/-XNmOxRfDBWk/T4U6PN8OzVI/AAAAAAABMV0/KBBayKwvofg/s400/_DSF1584.JPG\"></p><p class=\"photographDay\">2010-08-21</p><p class=\"credit\">(c) Shuuichi Endou / NPO Tuvalu Overview</p></div>",
+        "billboard": {
+            "image": "https://lh4.googleusercontent.com/-XNmOxRfDBWk/T4U6PN8OzVI/AAAAAAABMV0/KBBayKwvofg/s32/_DSF1584.JPG",
+            "scale": 1,
+            "show": "true"
+        },
+        "position": {
+            "cartographicDegrees": [
+                178.318833,
+                -8.028667,
+                0
+            ]
+        }
+    }
+]
