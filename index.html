@@ -206,6 +206,12 @@ var ellipsoid = scene.globe.ellipsoid;
 
 viewer.screenSpaceEventHandler.removeInputAction(Cesium.ScreenSpaceEventType.LEFT_DOUBLE_CLICK);
 
+//devicePixelRatioの設定
+
+if(Cesium.FeatureDetection.supportsImageRenderingPixelated()){
+	viewer.resolutionScale = window.devicePixelRatio;
+}
+
 //フォグ
 /*
 var fog = new Cesium.Fog();
