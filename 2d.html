@@ -117,6 +117,28 @@ var getDevice = (function(){
 	}
 })();
 
+//画面サイズ調整
+
+if (mobile != 1) {
+    setTimeout('resizeWindow()',0);
+} else {
+    $('.titleImage').css('width','100%');
+    setTimeout('resizeWindow()',1000);		
+}
+    
+function resizeWindow(){
+    if (mobile != 0){
+        var screenWidth = window.innerWidth;
+        var screenHeight = window.innerHeight;
+        $(function() {
+            document.body.style.height = screenHeight;
+            $('#cesiumContainer').height(screenHeight);
+            $('#blackOut').height(screenHeight);
+        });
+    }
+    setTimeout('loadCesium()',100);
+}
+
 var screenWidth = window.parent.screen.width;
 if (screenWidth <= 640) {
 	smallScreen = 1;

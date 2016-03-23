@@ -136,6 +136,27 @@ $(window).on('resize', function(){
 	setTimeout('widgetsInit()',100);
 });
 
+//画面サイズ調整
+
+if (mobile != 1) {
+    setTimeout('resizeWindow()',0);
+} else {
+    $('.titleImage').css('width','100%');
+    setTimeout('resizeWindow()',1000);		
+}
+    
+function resizeWindow(){
+    if (mobile != 0){
+        var screenWidth = window.innerWidth;
+        var screenHeight = window.innerHeight;
+        $(function() {
+            document.body.style.height = screenHeight;
+            $('#cesiumContainer').height(screenHeight);
+            $('#blackOut').height(screenHeight);
+        });
+    }
+    setTimeout('loadCesium()',100);
+}
 
 //ローディングDIV
 
@@ -182,58 +203,64 @@ viewPointChangeMenu.innerHTML = viewPointChangeMenuHtml;
 
 //ビューア初期化
 
-var viewer = new Cesium.Viewer('cesiumContainer',{
-	infoBox:false,
-	selectionIndicator:false,
-	imageryProvider : new Cesium.ArcGisMapServerImageryProvider({
-		url : '//server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer',
-		enablePickFeatures : false
-	}),
-	navigationHelpButton : false,
-	navigationInstructionsInitiallyVisible : false,
-	geocoder:false,
-	sceneModePicker:false,
-	baseLayerPicker:false,
-	timeline: false,
-	animation: false,
-	scene3DOnly : true
-});
+var viewer;
+var scene;
+var ellipsoid;
 
-var scene = viewer.scene;
-var ellipsoid = scene.globe.ellipsoid;
+function loadCesium(){
+    viewer = new Cesium.Viewer('cesiumContainer',{
+        infoBox:false,
+        selectionIndicator:false,
+        imageryProvider : new Cesium.ArcGisMapServerImageryProvider({
+            url : '//server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer',
+            enablePickFeatures : false
+        }),
+        navigationHelpButton : false,
+        navigationInstructionsInitiallyVisible : false,
+        geocoder:false,
+        sceneModePicker:false,
+        baseLayerPicker:false,
+        timeline: false,
+        animation: false,
+        scene3DOnly : true
+    });
 
-//ダブルクリック操作を不可に
+    scene = viewer.scene;
+    ellipsoid = scene.globe.ellipsoid;
 
-viewer.screenSpaceEventHandler.removeInputAction(Cesium.ScreenSpaceEventType.LEFT_DOUBLE_CLICK);
+    //ダブルクリック操作を不可に
 
-//devicePixelRatioの設定
-/*
-if(Cesium.FeatureDetection.supportsImageRenderingPixelated()){
-	viewer.resolutionScale = window.devicePixelRatio;
+    viewer.screenSpaceEventHandler.removeInputAction(Cesium.ScreenSpaceEventType.LEFT_DOUBLE_CLICK);
+
+    //devicePixelRatioの設定
+    /*
+    if(Cesium.FeatureDetection.supportsImageRenderingPixelated()){
+        viewer.resolutionScale = window.devicePixelRatio;
+    }
+    */
+    //フォグ
+    /*
+    var fog = new Cesium.Fog();
+    fog.density = 0.003;
+    fog.screenSpaceErrorFactor = 100.0;
+    */
+    //起動シークエンス
+
+    $(function() {
+    //			$('.cesium-viewer-animationContainer').fadeOut(0);
+    //			$('.cesium-viewer-timelineContainer').fadeOut(0);
+    $('#button').fadeOut(0);
+    $('#button2').fadeOut(0);
+    $('#button3').fadeOut(0);
+    $('#buttonGeo').fadeOut(0);
+    $('.sharebutton').fadeOut(0);
+    $('.geocode').fadeOut(0);
+    $('#originalInfoBox').hide();
+    });
+
+    blackOut(0);
+    loadKml(tuvaluStarKml);
 }
-*/
-//フォグ
-/*
-var fog = new Cesium.Fog();
-fog.density = 0.003;
-fog.screenSpaceErrorFactor = 100.0;
-*/
-//起動シークエンス
-
-$(function() {
-//			$('.cesium-viewer-animationContainer').fadeOut(0);
-//			$('.cesium-viewer-timelineContainer').fadeOut(0);
-$('#button').fadeOut(0);
-$('#button2').fadeOut(0);
-$('#button3').fadeOut(0);
-$('#buttonGeo').fadeOut(0);
-$('.sharebutton').fadeOut(0);
-$('.geocode').fadeOut(0);
-$('#originalInfoBox').hide();
-});
-
-blackOut(0);
-loadKml(tuvaluStarKml);
 
 function groundZero(){
 	changeViewPoint(2,3);

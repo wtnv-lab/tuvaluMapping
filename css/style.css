@@ -4,8 +4,9 @@ html, body, #cesiumContainer {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	position:relative;
-	font-family: "MS Pゴシック",sans-serif; 
+	position: fixed;
+	font-family: "MS Pゴシック",sans-serif;
+    background-color:black;
 }
 
 h2 {
@@ -378,8 +379,8 @@ input {
 	position:absolute;
 	top:50%;
 	left:50%;
-	margin-top:-32px;
-	margin-left:-32px;
+	margin-top:-40px;
+	margin-left:-40px;
 }
 
 .geocode {
