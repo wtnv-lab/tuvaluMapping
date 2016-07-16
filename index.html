@@ -390,10 +390,12 @@ function loadJsonLine(fileName){
 	$.getJSON(jsonFile, function(json){
 		for(var i in json){
 			var positions = json[i].polyline.positions.cartographicDegrees;
+			var description = json[i].description;
 			var lineColor = Cesium.Color.fromBytes(48,48,255,32);
 			var positionsCartesian3 = Cesium.Cartesian3.fromDegreesArrayHeights(positions);
 			viewer.entities.add({
 				name : 'line',
+				description: description,
 				polyline : {
 					positions : positionsCartesian3,
 					width : 2,
