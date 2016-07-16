@@ -37,48 +37,49 @@
 	<div class="geocode">
 		<form action="javascript:geocode()" class="textbox" />
 		<input id="inputtext" class="textbox" type="text" value="" placeholder="Geocoding" />
-	</form>
-</div>
-<div id="blackOut">
-	<img class="loading" src="data/loading.gif">
-</div>
-<div id="cesiumContainer"></div>
+		</form>
+	</div>
+	<div id="blackOut">
+		<img class="loading" src="data/loading.gif">
+	</div>
+	<div id="cesiumContainer"></div>
 	<!--
 	<div id="timeCounter"></div>
 -->
-<div id="originalInfoBox"></div>
-<div id="button" class="general-button">
-	<div class="button-content">
-		<span class="icon-font">menu</span>
+	<div id="originalInfoBox"></div>
+	<div id="button" class="general-button">
+		<div class="button-content">
+			<span class="icon-font">menu</span>
+		</div>
 	</div>
-</div>
-<div id="button2" class="general-button" onclick="photographs();">
-	<div class="button-content">
-		<span class="icon-font">camera</span>
+	<div id="button2" class="general-button" onclick="photographs();">
+		<div class="button-content">
+			<span class="icon-font">camera</span>
+		</div>
 	</div>
-</div>
-<div id="button3" class="general-button" onclick="help();">
-	<div class="button-content">
-		<span class="icon-font">help</span>
+	<div id="button3" class="general-button" onclick="help();">
+		<div class="button-content">
+			<span class="icon-font">help</span>
+		</div>
 	</div>
-</div>
-<div id="slide_menu"></div>
-<div id="slide_menu2"></div>
-<div class="sharebutton">
-	<ul class="share-buttons">
-		<li>
-			<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftv.mapping.jp/earth/%2F&t=" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://tv.mapping.jp/earth/'); return false;"><img class="share" src="images/flat_web_icon_set/color/Facebook.png"></a>
-		</li>
-		<li>
-			<a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Ftv.mapping.jp/earth/%2F&text=:%20http%3A%2F%2Ftv.mapping.jp/earth/%2F&via=hwtnv"
-			target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ' http://tv.mapping.jp/earth/'); return false;"><img class="share" src="images/flat_web_icon_set/color/Twitter.png"></a>
-		</li>
-		<li>
-			<a href="https://plus.google.com/share?url=http%3A%2F%2Ftv.mapping.jp/earth/%2F" target="_blank" title="Share on Google+" onclick="window.open('https://plus.google.com/share?url=http://tv.mapping.jp/earth/'); return false;"><img class="share" src="images/flat_web_icon_set/color/Google+.png"></a>
-		</li>
-	</ul>
-</div>
-<script>
+	<div id="slide_menu"></div>
+	<div id="slide_menu2"></div>
+	<div class="sharebutton">
+		<ul class="share-buttons">
+			<li>
+				<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftv.mapping.jp/earth/%2F&t=" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://tv.mapping.jp/earth/'); return false;"><img class="share" src="images/flat_web_icon_set/color/Facebook.png"></a>
+			</li>
+			<li>
+				<a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Ftv.mapping.jp/earth/%2F&text=:%20http%3A%2F%2Ftv.mapping.jp/earth/%2F&via=hwtnv"
+					target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ' http://tv.mapping.jp/earth/'); return false;"><img class="share" src="images/flat_web_icon_set/color/Twitter.png"></a>
+			</li>
+			<li>
+				<a href="https://plus.google.com/share?url=http%3A%2F%2Ftv.mapping.jp/earth/%2F" target="_blank" title="Share on Google+"
+					onclick="window.open('https://plus.google.com/share?url=http://tv.mapping.jp/earth/'); return false;"><img class="share" src="images/flat_web_icon_set/color/Google+.png"></a>
+			</li>
+		</ul>
+	</div>
+	<script>
 //URLパラメータ取得
 
 var urlParameter = new Object;
@@ -373,8 +374,8 @@ function loadJsonTestimony(fileName){
 			}
 		}, 
 		Cesium.ScreenSpaceEventType.LEFT_CLICK);
-setTimeout('blackOut(0)',3000);
-setTimeout('widgetsInit()',3000);
+		setTimeout('blackOut(0)',3000);
+		setTimeout('widgetsInit()',3000);
 //			loadCzml(tuvaluLineCzml);
 //			timeSet();
 //			viewer.clock.onTick.addEventListener(function(clock){

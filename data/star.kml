@@ -27,7 +27,7 @@
 		<IconStyle>
 			<scale>2.3</scale>
 			<Icon>
-				<href>http://tv.mapping.jp/earth/images/starIcon/star.png</href>
+				<href>../images/starIcon/star.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -39,7 +39,7 @@
 		<IconStyle>
 			<scale>2.3</scale>
 			<Icon>
-				<href>http://tv.mapping.jp/earth/images/starIcon/star.png</href>
+				<href>../images/starIcon/star.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -47,7 +47,7 @@
 		<IconStyle>
 			<scale>3.07273</scale>
 			<Icon>
-				<href>http://tv.mapping.jp/earth/images/starIcon/star.png</href>
+				<href>../images/starIcon/star.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -59,7 +59,7 @@
 		<IconStyle>
 			<scale>3.07273</scale>
 			<Icon>
-				<href>http://tv.mapping.jp/earth/images/starIcon/star.png</href>
+				<href>../images/starIcon/star.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>

@@ -37,48 +37,49 @@
 	<div class="geocode">
 		<form action="javascript:geocode()" class="textbox" />
 		<input id="inputtext" class="textbox" type="text" value="" placeholder="Geocoding" />
-	</form>
-</div>
-<div id="blackOut">
-	<img class="loading" src="data/loading.gif">
-</div>
-<div id="cesiumContainer"></div>
+		</form>
+	</div>
+	<div id="blackOut">
+		<img class="loading" src="data/loading.gif">
+	</div>
+	<div id="cesiumContainer"></div>
 	<!--
 	<div id="timeCounter"></div>
 -->
-<div id="originalInfoBox"></div>
-<div id="button" class="general-button">
-	<div class="button-content">
-		<span class="icon-font">menu</span>
+	<div id="originalInfoBox"></div>
+	<div id="button" class="general-button">
+		<div class="button-content">
+			<span class="icon-font">menu</span>
+		</div>
 	</div>
-</div>
-<div id="button2" class="general-button" onclick="photographs();">
-	<div class="button-content">
-		<span class="icon-font">camera</span>
+	<div id="button2" class="general-button" onclick="photographs();">
+		<div class="button-content">
+			<span class="icon-font">camera</span>
+		</div>
 	</div>
-</div>
-<div id="button3" class="general-button" onclick="help();">
-	<div class="button-content">
-		<span class="icon-font">help</span>
+	<div id="button3" class="general-button" onclick="help();">
+		<div class="button-content">
+			<span class="icon-font">help</span>
+		</div>
 	</div>
-</div>
-<div id="slide_menu"></div>
-<div id="slide_menu2"></div>
-<div class="sharebutton">
-	<ul class="share-buttons">
-		<li>
-			<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftv.mapping.jp/earth/%2F&t=" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://tv.mapping.jp/earth/'); return false;"><img class="share" src="images/flat_web_icon_set/color/Facebook.png"></a>
-		</li>
-		<li>
-			<a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Ftv.mapping.jp/earth/%2F&text=:%20http%3A%2F%2Ftv.mapping.jp/earth/%2F&via=hwtnv"
-			target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ' http://tv.mapping.jp/earth/'); return false;"><img class="share" src="images/flat_web_icon_set/color/Twitter.png"></a>
-		</li>
-		<li>
-			<a href="https://plus.google.com/share?url=http%3A%2F%2Ftv.mapping.jp/earth/%2F" target="_blank" title="Share on Google+" onclick="window.open('https://plus.google.com/share?url=http://tv.mapping.jp/earth/'); return false;"><img class="share" src="images/flat_web_icon_set/color/Google+.png"></a>
-		</li>
-	</ul>
-</div>
-<script>
+	<div id="slide_menu"></div>
+	<div id="slide_menu2"></div>
+	<div class="sharebutton">
+		<ul class="share-buttons">
+			<li>
+				<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftv.mapping.jp/earth/%2F&t=" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://tv.mapping.jp/earth/'); return false;"><img class="share" src="images/flat_web_icon_set/color/Facebook.png"></a>
+			</li>
+			<li>
+				<a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Ftv.mapping.jp/earth/%2F&text=:%20http%3A%2F%2Ftv.mapping.jp/earth/%2F&via=hwtnv"
+					target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ' http://tv.mapping.jp/earth/'); return false;"><img class="share" src="images/flat_web_icon_set/color/Twitter.png"></a>
+			</li>
+			<li>
+				<a href="https://plus.google.com/share?url=http%3A%2F%2Ftv.mapping.jp/earth/%2F" target="_blank" title="Share on Google+"
+					onclick="window.open('https://plus.google.com/share?url=http://tv.mapping.jp/earth/'); return false;"><img class="share" src="images/flat_web_icon_set/color/Google+.png"></a>
+			</li>
+		</ul>
+	</div>
+	<script>
 //URLパラメータ取得
 
 var urlParameter = new Object;
@@ -278,7 +279,6 @@ function landing(){
 		changeViewPoint(1,3);				
 	}
 	setTimeout('blackOut(1)',3000);
-//			setTimeout('loadJsonTestimony(tuvaluTestimonyJson)',3000);
 setTimeout('loadJsonLine(tuvaluLineJson)',3000);
 }
 
@@ -301,6 +301,29 @@ function loadCzml(url){
 	}).otherwise(function(error){
 		alert('Cannot Load CZML Data');
 	});
+}
+
+// ライン追加
+
+function loadJsonLine(fileName){
+	var jsonFile = fileName;					
+	$.getJSON(jsonFile, function(json){
+		for(var i in json){
+			var positions = json[i].polyline.positions.cartographicDegrees;
+			var lineColor = Cesium.Color.fromBytes(48,48,255,32);
+			var positionsCartesian3 = Cesium.Cartesian3.fromDegreesArrayHeights(positions);
+			viewer.entities.add({
+				name : 'line',
+				polyline : {
+					positions : positionsCartesian3,
+					width : 2,
+					material :lineColor,
+				}
+			});
+		}
+	});
+	delete jsonFile;
+	loadJsonTestimony(tuvaluTestimonyJson);
 }
 
 //顔アイコン追加
@@ -368,37 +391,14 @@ function loadJsonTestimony(fileName){
 				$('#originalInfoBox').hide();
 			}
 		}, 
-		Cesium.ScreenSpaceEventType.LEFT_CLICK);
-setTimeout('blackOut(0)',3000);
-setTimeout('widgetsInit()',3000);
+	Cesium.ScreenSpaceEventType.LEFT_CLICK);
+	setTimeout('blackOut(0)',3000);
+	setTimeout('widgetsInit()',3000);
 //			loadCzml(tuvaluLineCzml);
 //			timeSet();
 //			viewer.clock.onTick.addEventListener(function(clock){
 //			checkTime();
 //			});
-}
-
-// ライン追加
-
-function loadJsonLine(fileName){
-	var jsonFile = fileName;					
-	$.getJSON(jsonFile, function(json){
-		for(var i in json){
-			var positions = json[i].polyline.positions.cartographicDegrees;
-			var lineColor = Cesium.Color.fromBytes(48,48,255,32);
-			var positionsCartesian3 = Cesium.Cartesian3.fromDegreesArrayHeights(positions);
-			viewer.entities.add({
-				name : 'line',
-				polyline : {
-					positions : positionsCartesian3,
-					width : 2,
-					material :lineColor,
-				}
-			});
-		}
-	});
-	delete jsonFile;
-	loadJsonTestimony(tuvaluTestimonyJson);
 }
 
 //時間セット
