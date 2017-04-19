@@ -21,13 +21,13 @@
 	<script src="js/slidein.js"></script>
 	<script src="Cesium/Cesium.js"></script>
 	<script src="http://www.google.com/jsapi"></script>
-	<script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyCc9E-ulJKRVMPyJe_V5sUVNU8kxiDIUtg"></script>
 	<script type="text/javascript">
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		
+
 		ga('create', 'UA-55397811-7', 'auto');
 		ga('send', 'pageview');
 	</script>
@@ -96,7 +96,7 @@ var overlayDataArray=[];
 
 //KML,CZMLファイル指定
 
-var tuvaluStarKml = 'data/star.kml';		
+var tuvaluStarKml = 'data/star.kml';
 var tuvaluTestimonyCzml = 'data/testimonies.czml';
 var tuvaluLineCzml = 'data/line.czml';
 var tuvaluTestimonyJson = 'data/testimonies.json';
@@ -143,9 +143,9 @@ if (mobile != 1) {
     setTimeout('resizeWindow()',0);
 } else {
     $('.titleImage').css('width','100%');
-    setTimeout('resizeWindow()',1000);		
+    setTimeout('resizeWindow()',1000);
 }
-    
+
 function resizeWindow(){
     if (mobile != 0){
         var screenWidth = window.innerWidth;
@@ -172,7 +172,7 @@ function blackOut(param) {
 		$(function() {
 			$(blackOutDiv).fadeIn("slow");
 		});
-	} 
+	}
 }
 
 //視点配列生成
@@ -280,7 +280,7 @@ function landing(){
 	if (urlParameter.location){
 		changeViewPoint([urlParameter.location],3);
 	} else {
-		changeViewPoint(1,3);				
+		changeViewPoint(1,3);
 	}
 	setTimeout('blackOut(1)',3000);
 //			setTimeout('loadJsonTestimony(tuvaluTestimonyJson)',3000);
@@ -289,7 +289,7 @@ setTimeout('loadJsonLine(tuvaluLineJson)',3000);
 
 //KMLとCZMLのロード
 
-function loadKml(url){			
+function loadKml(url){
 	var promise = Cesium.KmlDataSource.load(url);
 	promise.then(function(dataSource) {
 		viewer.dataSources.add(dataSource);
@@ -332,7 +332,7 @@ function loadJsonTestimony(fileName){
 				scale : 1.1
 			});
 			billboardsAdd.name = name;
-/*				
+/*
 					var polylinesAdd = polylines.add({
 						id: id,
 						positions : polylinePositionsCartesian3,
@@ -345,7 +345,7 @@ function loadJsonTestimony(fileName){
 			});
 	delete jsonFile;
 	handler = new Cesium.ScreenSpaceEventHandler(viewer.canvas);
-	handler.setInputAction( 
+	handler.setInputAction(
 		function(movement){
 			var element = scene.pick(movement.position);
 			if (element) {
@@ -372,7 +372,7 @@ function loadJsonTestimony(fileName){
 			} else {
 				$('#originalInfoBox').hide();
 			}
-		}, 
+		},
 		Cesium.ScreenSpaceEventType.LEFT_CLICK);
 		setTimeout('blackOut(0)',3000);
 		setTimeout('widgetsInit()',3000);
@@ -386,7 +386,7 @@ function loadJsonTestimony(fileName){
 // ライン追加
 
 function loadJsonLine(fileName){
-	var jsonFile = fileName;					
+	var jsonFile = fileName;
 	$.getJSON(jsonFile, function(json){
 		for(var i in json){
 			var positions = json[i].polyline.positions.cartographicDegrees;
@@ -414,7 +414,7 @@ function loadJsonLine(fileName){
 		var startISO = '1931-06-30T00:00:00+09:00';
 		var stopISO = '2014-01-01T00:00:00+09:00';
 
-		function timeSet(){				
+		function timeSet(){
 			clock = new Cesium.Clock({
 				startTime : Cesium.JulianDate.fromIso8601(startISO),
 				currentTime : Cesium.JulianDate.fromIso8601(startISO),
@@ -431,22 +431,22 @@ function loadJsonLine(fileName){
 		}
 
 //タイムカウンター表示
-		
+
 		function checkTime(){
-			
+
 			var now = viewer.clock.currentTime;
 			var stop = Cesium.JulianDate.fromIso8601(stopISO);
 			var nowAndCurrent = Cesium.JulianDate.compare(now, stop);
 			if (nowAndCurrent > 0){
 				viewer.clock.shouldAnimate = false;
 			}
-			
+
 			var nowDate = Cesium.JulianDate.toDate(now);
 			var y = nowDate.getFullYear();
 			var displayTime = y;
 			timeCounter(displayTime);
 		}
-		
+
 		function timeCounter(displayTime){
 			var timeCounter = document.getElementById("timeCounter");
 			timeCounter.innerHTML = '<p>' + displayTime +'</p>';
@@ -490,7 +490,7 @@ function geocode() {
 				var south = southNorth[Object.keys(southNorth)[0]];
 				var north = southNorth[Object.keys(southNorth)[1]];
 				var west = westEast[Object.keys(westEast)[0]];
-				var east = westEast[Object.keys(westEast)[1]];		
+				var east = westEast[Object.keys(westEast)[1]];
 				var rectangle = Cesium.Rectangle.fromDegrees(west, south, east, north);
 				viewer.camera.flyTo({
 					destination : rectangle,
@@ -499,7 +499,7 @@ function geocode() {
 			} else {
 				alert('Not Found');
 			}
-		} 
+		}
 		);
 }
 
@@ -531,11 +531,11 @@ function help(){
 /*
 		var scene = viewer.scene;
 		handler = new Cesium.ScreenSpaceEventHandler(viewer.canvas);
-		handler.setInputAction( 
+		handler.setInputAction(
 			function(movement){
 				var childNodesLength = 0;
 				var element = scene.pick(movement.position);
-				if (element) {					
+				if (element) {
 					setTimeout(function(){
 						var iframeContents = $('iframe:first').contents().find('.cesium-infoBox-description');
 						var childNodesLength = iframeContents[0].childNodes.length;
@@ -547,11 +547,11 @@ function help(){
 						} else {
 							$(function(){
 								$('.cesium-infoBox-visible').show();
-							});						
-						}						
+							});
+						}
 					},1);
 				}
-			}, 
+			},
 		Cesium.ScreenSpaceEventType.LEFT_CLICK);
 */
 //ボタン群のイニシャライズ関数
