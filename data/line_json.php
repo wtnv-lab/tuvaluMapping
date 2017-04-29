@@ -1,5 +1,5 @@
 <?php
-$db = mysql_connect("localhost", "root", "");
+$db = mysql_connect("localhost", "root", "a7kJ8xzEqUFfiVm");
 if(!$db){ exit('MySQLに接続できません．');}
 if(!mysql_select_db("tuvalu")){ exit('データベースを選択できません．');}
 
