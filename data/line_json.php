@@ -1,11 +1,13 @@
 <?php
 $db = mysql_connect("localhost", "root", "a7kJ8xzEqUFfiVm");
+mysql_query('SET NAMES utf8',$db);
 if(!$db){ exit('MySQLに接続できません．');}
 if(!mysql_select_db("tuvalu")){ exit('データベースを選択できません．');}
 
 $query = "SELECT DISTINCT date,name,message,country,longitude,latitude,target_la,target_lo FROM message";
 //$query = "SELECT distinct name,message from `message`";
 //echo $query;
+header('Content-type: text/plain; charset=UTF-8');
 $result = mysql_query($query);
 if(!$result){exit('クエリの実行が失敗しました: ');}
 
