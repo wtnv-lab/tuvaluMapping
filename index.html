@@ -223,7 +223,9 @@ function loadCesium(){
         baseLayerPicker:false,
         timeline: false,
         animation: false,
-        scene3DOnly : true
+        scene3DOnly : true,
+		requestRenderMode : true,
+		maximumRenderTimeChange : Infinity
     });
 
     scene = viewer.scene;

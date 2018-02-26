@@ -229,7 +229,9 @@ function loadCesium(){
         geocoder:false,
         sceneModePicker:false,
         baseLayerPicker:false,
-        scene3DOnly : true
+        scene3DOnly : true,
+		requestRenderMode : true,
+		maximumRenderTimeChange : Infinity
     });
 
     scene = viewer.scene;
