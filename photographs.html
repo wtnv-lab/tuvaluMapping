@@ -217,6 +217,7 @@ var viewer;
 var scene;
 
 function loadCesium(){
+	Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzZjdkOGRkYi1hYzIxLTQ4MDMtYjZiMC0zODg5YjI2ZTRlZjIiLCJpZCI6MjgyLCJzY29wZXMiOlsiYXNsIiwiYXNyIiwiYXN3IiwiZ2MiXSwiaWF0IjoxNTYyMDEyNTIyfQ.aVsGtowVeK_5C25G5-WCK7bZHyfXUl_zQ5Ud7TKsq0U';
     viewer = new Cesium.Viewer('cesiumContainer',{
         imageryProvider : new Cesium.ArcGisMapServerImageryProvider({
             url : '//server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer',
