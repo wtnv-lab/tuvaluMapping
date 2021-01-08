@@ -1,14 +1,13 @@
 <?php
-$db = mysql_connect("localhost", "root", "a7kJ8xzEqUFfiVm");
-mysql_query('SET NAMES utf8',$db);
+$db = mysqli_connect("localhost", "tuvaluServer", "UQVBV5MJvGLN1SVx1hPdLcztusjim55f");
 if(!$db){ exit('MySQLに接続できません．');}
-if(!mysql_select_db("tuvalu")){ exit('データベースを選択できません．');}
 
+//if(!mysql_select_db("tuvalu")){ exit('データベースを選択できません．');}
+mysqli_select_db( $db, 'tuvalu');
 $query = "SELECT DISTINCT date,name,message,country,longitude,latitude,target_la,target_lo FROM message";
 //$query = "SELECT distinct name,message from `message`";
 //echo $query;
-header('Content-type: text/plain; charset=UTF-8');
-$result = mysql_query($query);
+$result = mysqli_query($db, $query);
 if(!$result){exit('クエリの実行が失敗しました: ');}
 
 $jsonArray = array();
@@ -22,7 +21,7 @@ $documentArray = array(
 //array_push($jsonArray, $documentArray);
 
 $lineId = 0;
-while($row = mysql_fetch_array($result)){
+while($row = mysqli_fetch_array($result)){
 	$lineId = $lineId;
 	$date = substr($row['date'],0,10);
 	$description = '<div class="lineMessage">' . $row['message'] . ' from ' . $row['country'] . '</div>';
