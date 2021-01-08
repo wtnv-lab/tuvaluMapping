@@ -64,6 +64,7 @@
 	</div>
 	<div id="slide_menu"></div>
 	<div id="slide_menu2"></div>
+<!--
 	<div class="sharebutton">
 		<ul class="share-buttons">
 			<li>
@@ -79,6 +80,7 @@
 			</li>
 		</ul>
 	</div>
+-->
 	<script>
 //URLパラメータ取得
 
@@ -257,7 +259,7 @@ function loadCesium(){
     $('#button2').fadeOut(0);
     $('#button3').fadeOut(0);
     $('#buttonGeo').fadeOut(0);
-    $('.sharebutton').fadeOut(0);
+    //$('.sharebutton').fadeOut(0);
     $('.geocode').fadeOut(0);
     $('#originalInfoBox').hide();
     });
@@ -568,9 +570,11 @@ $('.geocode').fadeIn("slow");
 $('#button2').fadeIn("slow");
 $('#button3').fadeIn("slow");
 $('#buttonGeo').fadeIn("slow");
+/*
 if (mobile != 1){
 	$('.sharebutton').fadeIn("slow");
 }
+*/
 });
 }
 </script>
