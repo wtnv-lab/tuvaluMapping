@@ -5,6 +5,10 @@ BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
 SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png|ico)$ no-gzip dont-vary
 Header append Vary User-Agent env=!dont-vary
 
+RewriteEngine On
+RewriteCond %{HTTPS} on
+RewriteRule ^(.*)$ http://%{HTTP_HOST}/$1 [L,R=301]
+
 <IfModule mod_headers.c>
 <IfModule mod_expires.c>
 ExpiresActive On
