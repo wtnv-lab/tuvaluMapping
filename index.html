@@ -326,7 +326,7 @@ function loadJsonTestimony(fileName){
 			var iconUrl = json[i].billboard.image;
 			var positions = json[i].position.cartographicDegrees;
 			var positionsCartesian3 = Cesium.Cartesian3.fromDegreesArrayHeights(positions)[0];
-			var scaleByDistance = new Cesium.NearFarScalar(2.0e3, 1.0, 2.0e5, 0.0);
+			var scaleByDistance = new Cesium.NearFarScalar(1.5e3, 1.7, 1.5e4, 0.5);
 
 			var billboardsAdd = billboards.add({
 				id: id,
