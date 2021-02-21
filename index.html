@@ -121,7 +121,7 @@
 		var getDevice = (function () {
 			var ua = navigator.userAgent;
 			if (ua.indexOf('iPhone') > 0 || ua.indexOf('iPod') > 0 || ua.indexOf('Android') > 0 && ua.indexOf(
-					'Mobile') > 0) {
+				'Mobile') > 0) {
 				mobile = 1;
 			} else if (ua.indexOf('iPad') > 0 || ua.indexOf('Android') > 0) {
 				mobile = 2;
@@ -258,7 +258,7 @@
 			//devicePixelRatioの設定
 			/*
 			if(Cesium.FeatureDetection.supportsImageRenderingPixelated()){
-			    viewer.resolutionScale = window.devicePixelRatio;
+				viewer.resolutionScale = window.devicePixelRatio;
 			}
 			*/
 			//フォグ
@@ -335,10 +335,11 @@
 		var billboards;
 		var positionsCartesian3;
 		var scaleByDistance;
-
+		var handler;
 
 		function loadJsonTestimony(fileName) {
 			var jsonFile = fileName;
+			handler = new Cesium.ScreenSpaceEventHandler(viewer.canvas);
 
 			$.getJSON(jsonFile, function (json) {
 				for (var i in json) {
@@ -369,7 +370,6 @@
 				}
 			});
 			delete jsonFile;
-			handler = new Cesium.ScreenSpaceEventHandler(viewer.canvas);
 			handler.setInputAction(
 				function (movement) {
 					var element = scene.pick(movement.position);
@@ -506,8 +506,8 @@
 			var geocoder = new google.maps.Geocoder();
 			var input = document.getElementById('inputtext').value;
 			geocoder.geocode({
-					address: input
-				},
+				address: input
+			},
 
 				function (results, status) {
 					if (status == google.maps.GeocoderStatus.OK) {
