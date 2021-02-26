@@ -121,7 +121,7 @@
 		var getDevice = (function () {
 			var ua = navigator.userAgent;
 			if (ua.indexOf('iPhone') > 0 || ua.indexOf('iPod') > 0 || ua.indexOf('Android') > 0 && ua.indexOf(
-				'Mobile') > 0) {
+					'Mobile') > 0) {
 				mobile = 1;
 			} else if (ua.indexOf('iPad') > 0 || ua.indexOf('Android') > 0) {
 				mobile = 2;
@@ -200,7 +200,7 @@
 
 		var viewPointsArray = [];
 		viewPointsArray[0] = new viewPoints("Vaitupu", -7.476733, 178.679767, 0, -25, 7200);
-		viewPointsArray[1] = new viewPoints("Nukulaelae", -9.407985, 179.840492, 0, -25, 10000);
+		viewPointsArray[1] = new viewPoints("Nukulaelae", -9.387985, 179.845492, 0, -15, 9500);
 		viewPointsArray[2] = new viewPoints("Tuvalu", -7.508104, 178.024189, 0, -89, 1000000);
 		viewPointsArray[3] = new viewPoints("Earth", -7.508104, 178.024189, 0, -89, 8000000);
 
@@ -231,6 +231,10 @@
 					url: '//server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer',
 					enablePickFeatures: false
 				}),
+				terrainProvider: new Cesium.createWorldTerrain({
+					requestVertexNormals: false,
+					requestWaterMask: false
+				}),
 				navigationHelpButton: false,
 				navigationInstructionsInitiallyVisible: false,
 				geocoder: false,
@@ -253,7 +257,7 @@
 			//ビルボード準備
 
 			billboards = scene.primitives.add(new Cesium.BillboardCollection());
-			scaleByDistance = new Cesium.NearFarScalar(1.5e3, 1.7, 1.5e4, 0.5);
+			scaleByDistance = new Cesium.NearFarScalar(1.5e3, 2.0, 1.5e4, 0.5);
 
 			//devicePixelRatioの設定
 			/*
@@ -506,8 +510,8 @@
 			var geocoder = new google.maps.Geocoder();
 			var input = document.getElementById('inputtext').value;
 			geocoder.geocode({
-				address: input
-			},
+					address: input
+				},
 
 				function (results, status) {
 					if (status == google.maps.GeocoderStatus.OK) {
