@@ -327,7 +327,7 @@
 			promise.then(function (dataSource) {
 				viewer.dataSources.add(dataSource);
 				setTimeout('groundZero()', 1000);
-			}).otherwise(function (error) {
+			}).catch(function (error) {
 				alert('Cannot Load KML Data');
 			});
 		}
@@ -336,7 +336,7 @@
 			var promise = Cesium.CzmlDataSource.load(url);
 			promise.then(function (dataSource) {
 				viewer.dataSources.add(dataSource);
-			}).otherwise(function (error) {
+			}).catch(function (error) {
 				alert('Cannot Load CZML Data');
 			});
 		}
