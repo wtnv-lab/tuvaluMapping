@@ -299,6 +299,15 @@
 				var left;
 				var top;
 
+				if (mobile == 1 || smallScreen == 1 || window.innerWidth <= 640) {
+					left = Math.max(margin, Math.min((window.innerWidth - infoBox.offsetWidth) / 2, maxLeft));
+					top = 100;
+					infoBox.style.left = left + 'px';
+					infoBox.style.top = top + 'px';
+					updateOriginalInfoBoxConnector(canvasPosition, infoBox);
+					return;
+				}
+
 				if (preferredLeft <= maxLeft) {
 					left = preferredLeft;
 				} else if (fallbackLeft >= margin) {
