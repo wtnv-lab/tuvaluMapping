@@ -48,11 +48,6 @@
 </head>
 
 <body>
-	<div class="geocode">
-		<form action="javascript:geocode()" class="textbox">
-			<input id="inputtext" class="textbox" type="text" value="" placeholder="Geocoding" />
-		</form>
-	</div>
 	<div id="blackOut">
 		<img class="loading" src="data/loading.gif">
 	</div>
@@ -284,9 +279,8 @@
 				$('#button3').fadeOut(0);
 				$('#buttonGeo').fadeOut(0);
 				//$('.sharebutton').fadeOut(0);
-				$('.geocode').fadeOut(0);
-				$('#originalInfoBox').hide();
-			});
+					$('#originalInfoBox').hide();
+				});
 
 			blackOut(0);
 			loadKml(tuvaluStarKml);
@@ -678,7 +672,6 @@
 				//				$('.cesium-viewer-timelineContainer').css('left', '0px');
 				//				$('.cesium-viewer-timelineContainer').fadeIn("slow");
 				$('#button').fadeIn("slow");
-				$('.geocode').fadeIn("slow");
 				$('#button2').fadeIn("slow");
 				$('#button3').fadeIn("slow");
 				$('#buttonGeo').fadeIn("slow");

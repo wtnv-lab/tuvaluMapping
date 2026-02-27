@@ -32,11 +32,6 @@
 </head>
 
 <body>
-	<div class="geocode">
-		<form action="javascript:geocode()" class="textbox">
-			<input id="inputtext" class="textbox" type="text" value="" placeholder="Geocoding" />
-		</form>
-	</div>
 	<div id="blackOut">
 		<img class="loading" src="data/loading.gif">
 	</div>
@@ -285,6 +280,18 @@ function showOriginalInfoBox(position, html) {
 	updateOriginalInfoBoxPosition();
 }
 
+function normalizePhotoBillboards(dataSource) {
+	var entities = dataSource.entities.values;
+	for (var j = 0; j < entities.length; j++) {
+		var entity = entities[j];
+		if (!entity.billboard) {
+			continue;
+		}
+		entity.billboard.heightReference = new Cesium.ConstantProperty(Cesium.HeightReference.CLAMP_TO_GROUND);
+		entity.billboard.disableDepthTestDistance = new Cesium.ConstantProperty(Number.POSITIVE_INFINITY);
+	}
+}
+
 function getPickedPosition(element) {
 	if (element.id && element.id.position && typeof element.id.position.getValue === 'function') {
 		return element.id.position.getValue(viewer.clock.currentTime);
@@ -323,6 +330,7 @@ function loadCesium(){
     });
 
     scene = viewer.scene;
+	scene.globe.depthTestAgainstTerrain = false;
 	viewer.scene.postRender.addEventListener(updateOriginalInfoBoxPosition);
 	pickedHandler = new Cesium.ScreenSpaceEventHandler(viewer.canvas);
 	pickedHandler.setInputAction(function (movement) {
@@ -364,7 +372,6 @@ function loadCesium(){
         $('#button2').fadeOut(0);
         $('#button3').fadeOut(0);
         $('#buttonGeo').fadeOut(0);
-        $('.geocode').fadeOut(0);
 		$('#originalInfoBox').hide();
     });
 
@@ -408,6 +415,7 @@ function loadCzml(){
 	var load = setInterval(function(){
 		var promise = Cesium.CzmlDataSource.load(czmlDataArray[i].url);
 		promise.then(function(dataSource) {
+			normalizePhotoBillboards(dataSource);
 			viewer.dataSources.add(dataSource);
 		}).catch(function(error){
 //			alert('CZMLデータが読み込めません');
@@ -554,7 +562,6 @@ function widgetsInit(){
 //		$('.cesium-viewer-timelineContainer').css('left', '0px');
 //		$('.cesium-viewer-timelineContainer').fadeIn("slow");
 		$('#button').fadeIn("slow");
-		$('.geocode').fadeIn("slow");
 		$('#button2').fadeIn("slow");
 		$('#button3').fadeIn("slow");
 		$('#buttonGeo').fadeIn("slow");

@@ -322,15 +322,19 @@ button.cesium-infoBox-close {
     top: 48px;
     left: -200px;
     width: 80px;
-    opacity:0.8;
+    opacity:1;
     padding:0px 0px 20px 0px;
     margin:0px;
     margin-bottom:0px;
-    background:white;
+    background:rgba(0,0,0,0.62);
+    border:1px solid rgba(255,255,255,0.16);
+    box-shadow:0 14px 30px rgba(0,0,0,0.32);
     text-align:center;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     border-radius: 3px;
+	color: #f3f9ff;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.55);
 }
 
 #slide_menu2{
@@ -338,11 +342,13 @@ button.cesium-infoBox-close {
     top: 48px;
     right: -200px;
     width: 100px;
-    opacity:0.8;
+    opacity:1;
     padding:10px 10px 0px 10px;
     margin:0px;
     margin-bottom:0px;
-    background:white;
+    background:rgba(0,0,0,0.62);
+    border:1px solid rgba(255,255,255,0.16);
+    box-shadow:0 14px 30px rgba(0,0,0,0.32);
     text-align:left;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -357,7 +363,19 @@ button.cesium-infoBox-close {
     list-style-type:none;
     line-height:1.7em;
     text-indent:0px;
-    background:white;
+    background:transparent;
+	color: #f3f9ff;
+}
+
+#slide_menu .viewpoint a,
+#slide_menu .viewpoint a:visited {
+	color: #f3f9ff;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.55);
+}
+
+#slide_menu .viewpoint a:hover,
+#slide_menu .viewpoint a:active {
+	color: #ffffff;
 }
 
 .slide_label{
@@ -393,20 +411,28 @@ input {
 }
 
 .geocode {
-	opacity:0.7;
+	opacity:1;
 	position:absolute;
 	top:18px;
 	left:55px;
 	z-index:10001;
+	padding:3px 6px;
+	background:rgba(0,0,0,0.62);
+	border:1px solid rgba(255,255,255,0.16);
+	border-radius:4px;
+	box-shadow:0 10px 24px rgba(0,0,0,0.32);
 }
 
 .textbox {
-	border:0;
+	border:1px solid rgba(255,255,255,0.25);
 	margin:0px;
-	padding:0px 0px 1px 2px;
+	padding:2px 6px;
 	font-size:12px;
 	width:100px;
-	height:15px;
+	height:20px;
+	background:rgba(0,0,0,0.45);
+	color:#f3f9ff;
+	border-radius:2px;
 }
 
 /*ローディング*/
@@ -434,8 +460,10 @@ input {
 	height:auto;
 	max-width:360px;
 	max-height:calc(100vh - 16px);
-	background:rgba(0,0,0,0.8);
-	border-radius:5px;
+	background:rgba(0,0,0,0.72);
+	border:1px solid rgba(255,255,255,0.14);
+	border-radius:0;
+	box-shadow:0 16px 28px rgba(0,0,0,0.34);
 	z-index:10010;
 	overflow:auto;
 	display:none;
@@ -454,7 +482,7 @@ input {
 }
 
 p.nameAndAge {
-	color:#BBBBBB;
+	color:#f4fbff;
 	font-family: "ＭＳ Ｐゴシック","ＭＳ ゴシック",sans-serif;
 	text-align:center;
 	padding:0px;
@@ -494,6 +522,7 @@ div.infoBoxContent {
 #originalInfoBox .infoBoxContent p.photography,
 #originalInfoBox .infoBoxContent p.photographDay,
 #originalInfoBox .infoBoxContent p.credit {
+	color:#eef7ff !important;
 	font-size: 10px !important;
 	line-height: 1.2 !important;
 	margin: 4px 0 !important;
