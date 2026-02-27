@@ -51,8 +51,8 @@
 
 <body>
 	<div class="geocode">
-		<form action="javascript:geocode()" class="textbox" />
-		<input id="inputtext" class="textbox" type="text" value="" placeholder="Geocoding" />
+		<form action="javascript:geocode()" class="textbox">
+			<input id="inputtext" class="textbox" type="text" value="" placeholder="Geocoding" />
 		</form>
 	</div>
 	<div id="blackOut">
@@ -84,14 +84,14 @@
 	<div class="sharebutton">
 		<ul class="share-buttons">
 			<li>
-				<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftv.mapping.jp/earth/%2F&t=" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://tv.mapping.jp/earth/'); return false;"><img class="share" src="images/flat_web_icon_set/color/Facebook.png"></a>
+				<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ftv.mapping.jp/earth/%2F&t=" target="_blank" rel="noopener noreferrer" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://tv.mapping.jp/earth/'); return false;"><img class="share" src="images/flat_web_icon_set/color/Facebook.png"></a>
 			</li>
 			<li>
 				<a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Ftv.mapping.jp/earth/%2F&text=:%20http%3A%2F%2Ftv.mapping.jp/earth/%2F&via=hwtnv"
-					target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ' https://tv.mapping.jp/earth/'); return false;"><img class="share" src="images/flat_web_icon_set/color/Twitter.png"></a>
+					target="_blank" rel="noopener noreferrer" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ' https://tv.mapping.jp/earth/'); return false;"><img class="share" src="images/flat_web_icon_set/color/Twitter.png"></a>
 			</li>
 			<li>
-				<a href="https://plus.google.com/share?url=http%3A%2F%2Ftv.mapping.jp/earth/%2F" target="_blank" title="Share on Google+"
+				<a href="https://plus.google.com/share?url=http%3A%2F%2Ftv.mapping.jp/earth/%2F" target="_blank" rel="noopener noreferrer" title="Share on Google+"
 					onclick="window.open('https://plus.google.com/share?url=https://tv.mapping.jp/earth/'); return false;"><img class="share" src="images/flat_web_icon_set/color/Google+.png"></a>
 			</li>
 		</ul>
@@ -399,9 +399,11 @@
 								}
 							});
 
-							var iframeHtml = '<p class="nameAndAge">' + element.primitive.name +
+							var safeName = $('<div>').text(element.primitive.name || '').html();
+							var safeId = encodeURIComponent(String(element.primitive.id || ''));
+							var iframeHtml = '<p class="nameAndAge">' + safeName +
 								'</p><div class="infoBox"><iframe scrolling="no" frameborder="no" sandbox="allow-same-origin allow-top-navigation allow-forms allow-scripts" class="infoBox" src="https://linemap.archiving.jp/doc4iframe.php?id=' +
-								element.primitive.id + '"></iframe></div>';
+								safeId + '"></iframe></div>';
 							$('#originalInfoBox').html(iframeHtml);
 							$('#originalInfoBox').fadeIn(500);
 						} else {
