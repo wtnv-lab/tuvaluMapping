@@ -1,14 +1,13 @@
 <?php
 $db = mysqli_connect("localhost", "tuvaluServer", "UQVBV5MJvGLN1SVx1hPdLcztusjim55f");
-if(!$db){ exit('MySQLに接続できません．');}
-
-//if(!mysql_select_db("tuvalu")){ exit('データベースを選択できません．');}
-mysqli_select_db( $db, 'tuvalu');
+if (!$db) { exit('MySQLに接続できません．'); }
+mysqli_set_charset($db, 'utf8');
+mysqli_select_db($db, 'tuvalu');
 $query = "SELECT DISTINCT date,name,message,country,longitude,latitude,target_la,target_lo FROM message";
 //$query = "SELECT distinct name,message from `message`";
 //echo $query;
 $result = mysqli_query($db, $query);
-if(!$result){exit('クエリの実行が失敗しました: ');}
+if (!$result) { exit('クエリの実行が失敗しました: '); }
 
 $jsonArray = array();
 
@@ -21,10 +20,11 @@ $documentArray = array(
 //array_push($jsonArray, $documentArray);
 
 $lineId = 0;
-while($row = mysqli_fetch_array($result)){
-	$lineId = $lineId;
-	$date = substr($row['date'],0,10);
-	$description = '<div class="lineMessage">' . $row['message'] . ' from ' . $row['country'] . '</div>';
+while ($row = mysqli_fetch_array($result)) {
+	$date = substr($row['date'], 0, 10);
+	$message = htmlspecialchars((string)$row['message'], ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
+	$country = htmlspecialchars((string)$row['country'], ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
+	$description = '<div class="lineMessage">' . $message . ' from ' . $country . '</div>';
 /*
 	$description = $row['message'];
 	$date = $row['date'];
@@ -74,53 +74,35 @@ while($row = mysqli_fetch_array($result)){
 	}
 */
 
-	$polylinePoint = array(
+	$polylinePosition = array(
+		"cartographicDegrees" => array(
 			$longitude,
 			$latitude,
 			0,
 			$target_lo,
 			$target_la,
 			0
-	);
-	$polylinePosition = array(
-		"cartographicDegrees" => $polylinePoint,
-	);
-
-	$polylineRgba = array(
-		48,48,255,32
-	);
-
-	$polylineColor = array(
-		"rgba" => $polylineRgba,
-	);
-
-	$polylineSolidColor = array(
-		"color" => $polylineColor,
-	);
-
-	$polylineGlowRgba = array(
-		0,0,255,255
-	);
-
-	$polylineGlowColor = array(
-		"rgba" => $polylineGlowRgba,
-	);
-
-	$polylineGlow = array(
-		"color" => $polylineGlowColor,
-		"glowPower" => 1.0,
+		),
 	);
 
 	$polyLineMaterial = array(
-		"solidColor" => $polylineSolidColor,
-		"polylineGlow" => $polylineGlow,
+		"solidColor" => array(
+			"color" => array(
+				"rgba" => array(48, 48, 255, 32),
+			),
+		),
+		"polylineGlow" => array(
+			"color" => array(
+				"rgba" => array(0, 0, 255, 255),
+			),
+			"glowPower" => 1.0,
+		),
 	);
 
 	$polyline = array(
 		"width" => 2,
 		"positions" => $polylinePosition,
 		"material" => $polyLineMaterial,
-		"positions" => $polylinePosition,
 	);
 
 	$placemarkArray = array(
@@ -138,6 +120,8 @@ while($row = mysqli_fetch_array($result)){
 	$lineId++;
 }
 $json = json_encode($jsonArray,JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);
-var_dump ($json);
+echo $json;
 file_put_contents('line.json', $json);
+mysqli_free_result($result);
+mysqli_close($db);
 ?>
