@@ -91,9 +91,18 @@ a:active {
     left: 2px;
     padding-right: 0px;
     margin-right: 140px;
-    font-size: 9px;
     text-shadow: 0px 0px 2px #FFF;
-    opacity: 0.8;
+}
+
+.cesium-widget-credits,
+.cesium-widget-credits a,
+.cesium-widget-credits div,
+.cesium-widget-credits span,
+.cesium-credit-textContainer,
+.cesium-credit-textContainer a {
+    font-size: 7px !important;
+    line-height: 1.1 !important;
+    opacity: 0.65 !important;
 }
 
 .cesium-credit-imageContainer {
@@ -417,15 +426,31 @@ input {
 
 #originalInfoBox {
 	position:absolute;
-	right:8px;
-	top:52px;
-	padding:0px;
+	left:8px;
+	top:8px;
+	padding:8px 10px;
 	margin:0px;
-	width:320px;
-	height:405px;
+	width:auto;
+	height:auto;
+	max-width:360px;
+	max-height:calc(100vh - 16px);
 	background:rgba(0,0,0,0.8);
 	border-radius:5px;
 	z-index:10010;
+	overflow:auto;
+	display:none;
+}
+
+#originalInfoBoxConnector {
+	position: absolute;
+	height: 0;
+	width: 0;
+	border-top: 1px solid rgba(255, 255, 255, 0.35);
+	background: transparent;
+	transform-origin: left center;
+	z-index: 10009;
+	display: none;
+	pointer-events: none;
 }
 
 p.nameAndAge {
@@ -439,15 +464,62 @@ p.nameAndAge {
 
 iframe.infoBox {
 	border:0;
+	display:block;
+	width:320px;
+	max-width:calc(100vw - 48px);
 	height:370px;
+	max-height:calc(100vh - 120px);
 	margin:0;
 	padding:0;
 	overflow:hidden;
 }
 
 div.infoBox {
-	height:370px;
-	margin:0px 0px 0px 10px;
+	height:auto;
+	margin:0;
 	padding:0;
 	overflow:hidden;
+}
+
+div.infoBoxContent {
+	max-width:340px;
+	max-height:calc(100vh - 140px);
+	overflow:auto;
+	color:#BBBBBB;
+}
+
+#originalInfoBox p.photography,
+#originalInfoBox p.photographDay,
+#originalInfoBox p.credit,
+#originalInfoBox .infoBoxContent p.photography,
+#originalInfoBox .infoBoxContent p.photographDay,
+#originalInfoBox .infoBoxContent p.credit {
+	font-size: 10px !important;
+	line-height: 1.2 !important;
+	margin: 4px 0 !important;
+}
+
+#originalInfoBox p.photographDay,
+#originalInfoBox .infoBoxContent p.photographDay,
+#originalInfoBox .infoBoxContent p.photographDay {
+	display: none !important;
+}
+
+#originalInfoBox p.credit,
+#originalInfoBox .infoBoxContent p.credit {
+	text-align: center !important;
+}
+
+#originalInfoBox p.photographImg,
+#originalInfoBox .infoBoxContent p.photographImg {
+	text-align: center !important;
+}
+
+#originalInfoBox p.photographImg img,
+#originalInfoBox .infoBoxContent p.photographImg img {
+	display: block;
+	max-width: 100% !important;
+	width: auto !important;
+	height: auto !important;
+	margin: 0 auto;
 }
