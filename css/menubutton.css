@@ -35,20 +35,23 @@
 
 .general-button  {
   border-radius: 5px;
-  background-color: #303336;
+  background: rgba(0, 0, 0, 0.56);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
 }
 
 .general-button:before  {
   border-radius: 5px;
   border-bottom: 0px solid rgba(12,12,13, 0);
-  background-color: rgba(12,12,13, 0);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0));
 }
 
 .button-content  {
   border-radius: 0px 0px 5px 5px;
   padding: 2px 4.5px;
   box-shadow: 0px 0px 0px 0px rgba(12,12,13, 0);
-  color: #f8f8f8;
+  color: #f4fbff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
 }
 
 .button-text  {
@@ -70,7 +73,7 @@
   -moz-transition: all 0ms;
   -webkit-transition: all 0ms;
   -o-transition: all 0ms;
-  background-color: #373a3e;
+  background: rgba(0, 0, 0, 0.68);
 }
 
 .general-button:hover:before  {
@@ -82,7 +85,7 @@
 }
 
 .general-button:hover .button-content  {
-  box-shadow: 0px 1px 0px 0px rgba(12,12,13, 1);
+  box-shadow: 0px 1px 0px 0px rgba(255,255,255, 0.15);
   transition: all 0ms;
   -moz-transition: all 0ms;
   -webkit-transition: all 0ms;
@@ -92,8 +95,8 @@
 /*----------------- at active -----------------*/
 
 .general-button:active  {
-  background-color: #242628;
-  box-shadow: 0px 1.2px 0px 0px rgba(0,0,0, 1) inset;
+  background: rgba(0, 0, 0, 0.78);
+  box-shadow: 0px 1.2px 0px 0px rgba(0,0,0, 0.28) inset;
 }
 
 .general-button:active:before  {
@@ -208,8 +211,7 @@
 /*----------------- at hover -----------------*/
 
 .touch .general-button:hover  {
-
-  background-color: #303336;
+  background: rgba(0, 0, 0, 0.56);
 }
 
 .touch .general-button:hover:before  {
@@ -224,8 +226,8 @@
 /*----------------- at active -----------------*/
 
 .touch .general-button:active  {
-  background-color: #242628;
-  box-shadow: 0px 1.2px 0px 0px rgba(0,0,0, 1) inset;
+  background: rgba(0, 0, 0, 0.78);
+  box-shadow: 0px 1.2px 0px 0px rgba(0,0,0, 0.28) inset;
 }
 
 .touch .general-button:active:before  {
