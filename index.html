@@ -252,10 +252,11 @@
 
 			viewer.screenSpaceEventHandler.removeInputAction(Cesium.ScreenSpaceEventType.LEFT_DOUBLE_CLICK);
 
-			//ビルボード準備
+				//ビルボード準備
 
-			billboards = scene.primitives.add(new Cesium.BillboardCollection());
-			scaleByDistance = new Cesium.NearFarScalar(1.5e3, 2.0, 1.5e4, 0.5);
+				billboards = scene.primitives.add(new Cesium.BillboardCollection());
+				selectionBillboards = scene.primitives.add(new Cesium.BillboardCollection());
+				scaleByDistance = new Cesium.NearFarScalar(1.5e3, 2.0, 1.5e4, 0.5);
 
 			//devicePixelRatioの設定
 			/*
@@ -330,6 +331,7 @@
 		//顔アイコン追加
 
 			var billboards;
+			var selectionBillboards;
 			var positionsCartesian3;
 			var scaleByDistance;
 			var handler;
@@ -454,20 +456,19 @@
 				handler.setInputAction(
 					function (movement) {
 						var element = scene.pick(movement.position);
-						if (element) {
-							if (!(element.id && element.id.name === 'line') && element.primitive && element.primitive.position) {
-								viewer.entities.add({
-									position: element.primitive.position,
-								billboard: {
-									image: 'data/select.png',
-									pixelOffset: new Cesium.Cartesian2(0, -60),
-									pixelOffsetScaleByDistance: new Cesium.NearFarScalar(2.0e3, 1, 2.0e5, 0.0),
-									horizontalOrigin: Cesium.HorizontalOrigin.CENTER,
-									verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
-									scale: 0.5,
-									color: Cesium.Color.RED,
-								}
-							});
+							if (element) {
+								if (!(element.id && element.id.name === 'line') && element.primitive && element.primitive.position) {
+									selectionBillboards.removeAll();
+									selectionBillboards.add({
+										position: element.primitive.position,
+										image: 'data/select.png',
+										pixelOffset: new Cesium.Cartesian2(0, -60),
+										pixelOffsetScaleByDistance: new Cesium.NearFarScalar(2.0e3, 1, 2.0e5, 0.0),
+										horizontalOrigin: Cesium.HorizontalOrigin.CENTER,
+										verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+										scale: 0.5,
+										color: Cesium.Color.RED
+									});
 
 								var safeName = $('<div>').text(element.primitive.name || '').html();
 								var safeId = encodeURIComponent(String(element.primitive.id || ''));
@@ -475,12 +476,14 @@
 									'</p><div class="infoBox"><iframe scrolling="no" frameborder="no" sandbox="allow-same-origin allow-top-navigation allow-forms allow-scripts" class="infoBox" src="https://linemap.archiving.jp/doc4iframe.php?id=' +
 									safeId + '"></iframe></div>';
 								showOriginalInfoBox(element.primitive.position, iframeHtml);
+								} else {
+									selectionBillboards.removeAll();
+									hideOriginalInfoBox();
+								}
 							} else {
+								selectionBillboards.removeAll();
 								hideOriginalInfoBox();
 							}
-						} else {
-							hideOriginalInfoBox();
-						}
 					},
 				Cesium.ScreenSpaceEventType.LEFT_CLICK);
 			setTimeout('blackOut(0)', 3000);

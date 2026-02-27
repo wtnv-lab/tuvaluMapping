@@ -197,6 +197,9 @@ var scene;
 var infoWindowPosition;
 var pickedHandler;
 var infoBoxConnector = document.getElementById('originalInfoBoxConnector');
+var photoBillboards;
+var photoBillboardMeta = {};
+var photoBillboardUid = 0;
 
 function hideOriginalInfoBox() {
 	infoWindowPosition = null;
@@ -280,22 +283,79 @@ function showOriginalInfoBox(position, html) {
 	updateOriginalInfoBoxPosition();
 }
 
-function normalizePhotoBillboards(dataSource) {
-	var entities = dataSource.entities.values;
-	for (var j = 0; j < entities.length; j++) {
-		var entity = entities[j];
-		if (!entity.billboard) {
+function getCzmlString(value) {
+	if (typeof value === 'string') {
+		return value;
+	}
+	if (value && typeof value === 'object') {
+		if (typeof value.string === 'string') {
+			return value.string;
+		}
+		if (typeof value.value === 'string') {
+			return value.value;
+		}
+	}
+	return '';
+}
+
+function getCzmlImage(value) {
+	if (typeof value === 'string') {
+		return value;
+	}
+	if (value && typeof value === 'object') {
+		if (typeof value.uri === 'string') {
+			return value.uri;
+		}
+		if (typeof value.url === 'string') {
+			return value.url;
+		}
+	}
+	return '';
+}
+
+function addPhotoBillboardsFromCzml(czmlPackets) {
+	for (var p = 0; p < czmlPackets.length; p++) {
+		var packet = czmlPackets[p];
+		if (!packet.billboard || !packet.position || !packet.position.cartographicDegrees) {
 			continue;
 		}
-		entity.billboard.heightReference = new Cesium.ConstantProperty(Cesium.HeightReference.CLAMP_TO_GROUND);
-		entity.billboard.disableDepthTestDistance = new Cesium.ConstantProperty(Number.POSITIVE_INFINITY);
+
+		var cartographicDegrees = packet.position.cartographicDegrees;
+		if (!cartographicDegrees || cartographicDegrees.length < 2) {
+			continue;
+		}
+
+		var lon = Number(cartographicDegrees[0]);
+		var lat = Number(cartographicDegrees[1]);
+		var height = Number(cartographicDegrees[2] || 0);
+		if (!isFinite(lon) || !isFinite(lat)) {
+			continue;
+		}
+
+		var imageUrl = getCzmlImage(packet.billboard.image);
+		if (!imageUrl) {
+			continue;
+		}
+
+		var key = 'photo-' + (photoBillboardUid++);
+		photoBillboardMeta[key] = {
+			name: getCzmlString(packet.name),
+			description: getCzmlString(packet.description)
+		};
+
+		photoBillboards.add({
+			id: key,
+			position: Cesium.Cartesian3.fromDegrees(lon, lat, height + 2.0),
+			image: imageUrl,
+			scale: 1.0,
+			verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+			disableDepthTestDistance: Number.POSITIVE_INFINITY,
+			scaleByDistance: new Cesium.NearFarScalar(1.5e3, 1.2, 2.0e5, 0.65)
+		});
 	}
 }
 
 function getPickedPosition(element) {
-	if (element.id && element.id.position && typeof element.id.position.getValue === 'function') {
-		return element.id.position.getValue(viewer.clock.currentTime);
-	}
 	if (element.primitive && element.primitive.position) {
 		return element.primitive.position;
 	}
@@ -303,12 +363,15 @@ function getPickedPosition(element) {
 }
 
 function buildPickedInfoHtml(element) {
-	var name = element.id && element.id.name ? element.id.name : '';
-	var safeName = $('<div>').text(name).html();
-	var descriptionHtml = '';
-	if (element.id && element.id.description && typeof element.id.description.getValue === 'function') {
-		descriptionHtml = element.id.description.getValue(viewer.clock.currentTime) || '';
+	var primitiveId = '';
+	var primitiveMeta = null;
+	if (element.primitive && element.primitive.id) {
+		primitiveId = String(element.primitive.id);
+		primitiveMeta = photoBillboardMeta[primitiveId] || null;
 	}
+	var name = primitiveMeta ? primitiveMeta.name : '';
+	var safeName = $('<div>').text(name).html();
+	var descriptionHtml = primitiveMeta ? (primitiveMeta.description || '') : '';
 	return (safeName ? '<p class="nameAndAge">' + safeName + '</p>' : '') + '<div class="infoBoxContent">' + descriptionHtml + '</div>';
 }
 
@@ -330,7 +393,10 @@ function loadCesium(){
     });
 
     scene = viewer.scene;
-	scene.globe.depthTestAgainstTerrain = false;
+	if (scene && scene.globe) {
+		scene.globe.depthTestAgainstTerrain = false;
+	}
+	photoBillboards = scene.primitives.add(new Cesium.BillboardCollection());
 	viewer.scene.postRender.addEventListener(updateOriginalInfoBoxPosition);
 	pickedHandler = new Cesium.ScreenSpaceEventHandler(viewer.canvas);
 	pickedHandler.setInputAction(function (movement) {
@@ -413,11 +479,9 @@ function loadKml(url){
 function loadCzml(){
 	var i = 0;
 	var load = setInterval(function(){
-		var promise = Cesium.CzmlDataSource.load(czmlDataArray[i].url);
-		promise.then(function(dataSource) {
-			normalizePhotoBillboards(dataSource);
-			viewer.dataSources.add(dataSource);
-		}).catch(function(error){
+		$.getJSON(czmlDataArray[i].url, function (czmlPackets) {
+			addPhotoBillboardsFromCzml(czmlPackets);
+		}).fail(function () {
 //			alert('CZMLデータが読み込めません');
 		});
 		i++;
